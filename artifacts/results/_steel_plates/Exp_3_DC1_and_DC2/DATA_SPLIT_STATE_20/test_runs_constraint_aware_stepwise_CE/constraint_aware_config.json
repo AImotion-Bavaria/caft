@@ -1,0 +1,11 @@
+{
+    "MAX_FC2_RATE": 0.005,
+    "MAX_FP_0AS1_RATE": 0.02,
+    "FINETUNE_LR": 5e-06,
+    "COST_INCREMENT": 2,
+    "INNER_PATIENCE": 20,
+    "MAX_FINETUNE_EPOCHS": 1500,
+    "BASE_COST_MATRIX": "[[0.0, 0.0, 0.0], [0.0, 0.0, 0.0], [0.0, 0.0, 0.0]]",
+    "CLASS_WEIGHTS": "eye (CE anchor + lambda-scaled cost penalty)",
+    "CONSTRAINT": "FC2-Rate <= 0.005 AND FP_0as1-Rate <= 0.02"
+}

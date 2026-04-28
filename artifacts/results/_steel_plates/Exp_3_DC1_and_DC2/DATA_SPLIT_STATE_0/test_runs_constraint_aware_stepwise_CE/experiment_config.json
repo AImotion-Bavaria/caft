@@ -1,0 +1,26 @@
+{
+    "COST_MATRIX_RAW": "[[0.0, 3.0, 13.0], [2.0, 0.0, 12.0], [6.0, 3.0, 0.0]]",
+    "LEARNING_RATE": 5e-05,
+    "TRAIN_VAL_TEST_SIZE": [
+        0.6,
+        0.2,
+        0.2
+    ],
+    "DATA_SPLIT_STATE": 0,
+    "BATCH_SIZE": 64,
+    "NUM_EPOCHS": 500,
+    "EARLY_STOPPING": true,
+    "PATIENCE": 25,
+    "MONITOR": "val_loss",
+    "MODE": "min",
+    "USE_CLASS_WEIGHTS": false,
+    "MAX_FC2_RATE": 0.005,
+    "MAX_FP_0AS1_RATE": 0.02,
+    "FINETUNE_LR": 5e-06,
+    "COST_INCREMENT": 2,
+    "INNER_PATIENCE": 20,
+    "MAX_FINETUNE_EPOCHS": 1500,
+    "BASE_COST_MATRIX": "[[0.0, 0.0, 0.0], [0.0, 0.0, 0.0], [0.0, 0.0, 0.0]]",
+    "CLASS_WEIGHTS": "eye (CE anchor + lambda-scaled cost penalty)",
+    "CONSTRAINT": "FC2-Rate <= 0.005 AND FP_0as1-Rate <= 0.02"
+}

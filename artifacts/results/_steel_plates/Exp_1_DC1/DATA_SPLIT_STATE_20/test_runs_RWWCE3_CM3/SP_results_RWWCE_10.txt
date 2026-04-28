@@ -1,0 +1,722 @@
+Nach Skalierung:
+  Mean: tensor([-0.0122, -0.0120, -0.0173, -0.0173,  0.0319])
+  Std:  tensor([0.9955, 0.9977, 0.9712, 0.9712, 1.3995])
+Length train data: 1164 Num batches: 19
+Epoch 5 finished! -- Loss: 1.129, Accuracy: 50.687, Val Loss: 1.120, Val Accuracy: 50.773
+Average cost -- validation set: 0.492
+Validation Confusion Matrix: 
+ [[  0  57   0]
+ [  0 197   0]
+ [  0 134   0]]
+Early stopping: 0/25 (Best val_loss: 1.1199 at epoch 5)
+Epoch 10 finished! -- Loss: 1.036, Accuracy: 50.601, Val Loss: 1.026, Val Accuracy: 50.773
+Average cost -- validation set: 0.492
+Validation Confusion Matrix: 
+ [[  0  57   0]
+ [  0 197   0]
+ [  0 134   0]]
+Early stopping: 0/25 (Best val_loss: 1.0259 at epoch 10)
+Epoch 15 finished! -- Loss: 0.989, Accuracy: 50.601, Val Loss: 0.976, Val Accuracy: 54.381
+Average cost -- validation set: 0.637
+Validation Confusion Matrix: 
+ [[  0  42  15]
+ [  0 192   5]
+ [  0 115  19]]
+Early stopping: 0/25 (Best val_loss: 0.9755 at epoch 15)
+Epoch 20 finished! -- Loss: 0.946, Accuracy: 55.928, Val Loss: 0.938, Val Accuracy: 59.278
+Average cost -- validation set: 0.979
+Validation Confusion Matrix: 
+ [[  0  13  44]
+ [  0 174  23]
+ [  0  78  56]]
+Early stopping: 0/25 (Best val_loss: 0.9379 at epoch 20)
+Epoch 25 finished! -- Loss: 0.903, Accuracy: 59.880, Val Loss: 0.899, Val Accuracy: 61.082
+Average cost -- validation set: 1.090
+Validation Confusion Matrix: 
+ [[  0   5  52]
+ [  0 165  32]
+ [  0  62  72]]
+Early stopping: 0/25 (Best val_loss: 0.8993 at epoch 25)
+Epoch 30 finished! -- Loss: 0.881, Accuracy: 60.911, Val Loss: 0.861, Val Accuracy: 62.113
+Average cost -- validation set: 1.090
+Validation Confusion Matrix: 
+ [[  0   5  52]
+ [  0 163  34]
+ [  1  55  78]]
+Early stopping: 0/25 (Best val_loss: 0.8612 at epoch 30)
+Epoch 35 finished! -- Loss: 0.857, Accuracy: 64.777, Val Loss: 0.829, Val Accuracy: 67.784
+Average cost -- validation set: 0.673
+Validation Confusion Matrix: 
+ [[ 32   5  20]
+ [  7 162  28]
+ [ 14  51  69]]
+Early stopping: 0/25 (Best val_loss: 0.8293 at epoch 35)
+Epoch 40 finished! -- Loss: 0.814, Accuracy: 67.440, Val Loss: 0.800, Val Accuracy: 69.072
+Average cost -- validation set: 0.577
+Validation Confusion Matrix: 
+ [[ 38   4  15]
+ [ 12 163  22]
+ [ 19  48  67]]
+Early stopping: 0/25 (Best val_loss: 0.8000 at epoch 40)
+Epoch 45 finished! -- Loss: 0.787, Accuracy: 67.268, Val Loss: 0.778, Val Accuracy: 69.588
+Average cost -- validation set: 0.557
+Validation Confusion Matrix: 
+ [[ 40   4  13]
+ [ 15 159  23]
+ [ 23  40  71]]
+Early stopping: 0/25 (Best val_loss: 0.7780 at epoch 45)
+Epoch 50 finished! -- Loss: 0.780, Accuracy: 70.189, Val Loss: 0.763, Val Accuracy: 70.361
+Average cost -- validation set: 0.508
+Validation Confusion Matrix: 
+ [[ 42   4  11]
+ [ 14 164  19]
+ [ 23  44  67]]
+Early stopping: 0/25 (Best val_loss: 0.7625 at epoch 50)
+Epoch 55 finished! -- Loss: 0.794, Accuracy: 67.612, Val Loss: 0.747, Val Accuracy: 70.876
+Average cost -- validation set: 0.492
+Validation Confusion Matrix: 
+ [[ 44   3  10]
+ [ 15 163  19]
+ [ 25  41  68]]
+Early stopping: 0/25 (Best val_loss: 0.7475 at epoch 55)
+Epoch 60 finished! -- Loss: 0.779, Accuracy: 67.354, Val Loss: 0.737, Val Accuracy: 71.907
+Average cost -- validation set: 0.461
+Validation Confusion Matrix: 
+ [[ 45   3   9]
+ [ 15 165  17]
+ [ 25  40  69]]
+Early stopping: 0/25 (Best val_loss: 0.7369 at epoch 60)
+Epoch 65 finished! -- Loss: 0.739, Accuracy: 69.416, Val Loss: 0.724, Val Accuracy: 72.423
+Average cost -- validation set: 0.461
+Validation Confusion Matrix: 
+ [[ 45   3   9]
+ [ 14 165  18]
+ [ 22  41  71]]
+Early stopping: 0/25 (Best val_loss: 0.7244 at epoch 65)
+Epoch 70 finished! -- Loss: 0.753, Accuracy: 68.986, Val Loss: 0.723, Val Accuracy: 71.392
+Average cost -- validation set: 0.451
+Validation Confusion Matrix: 
+ [[ 45   3   9]
+ [ 15 168  14]
+ [ 26  44  64]]
+Early stopping: 1/25 (Best val_loss: 0.7192 at epoch 69)
+Epoch 75 finished! -- Loss: 0.741, Accuracy: 70.447, Val Loss: 0.715, Val Accuracy: 71.907
+Average cost -- validation set: 0.451
+Validation Confusion Matrix: 
+ [[ 45   3   9]
+ [ 14 168  15]
+ [ 25  43  66]]
+Early stopping: 0/25 (Best val_loss: 0.7152 at epoch 75)
+Epoch 80 finished! -- Loss: 0.756, Accuracy: 69.759, Val Loss: 0.707, Val Accuracy: 72.165
+Average cost -- validation set: 0.454
+Validation Confusion Matrix: 
+ [[ 45   3   9]
+ [ 13 168  16]
+ [ 24  43  67]]
+Early stopping: 0/25 (Best val_loss: 0.7070 at epoch 80)
+Epoch 85 finished! -- Loss: 0.732, Accuracy: 71.306, Val Loss: 0.705, Val Accuracy: 72.680
+Average cost -- validation set: 0.454
+Validation Confusion Matrix: 
+ [[ 45   3   9]
+ [ 13 167  17]
+ [ 27  37  70]]
+Early stopping: 0/25 (Best val_loss: 0.7054 at epoch 85)
+Epoch 90 finished! -- Loss: 0.720, Accuracy: 70.876, Val Loss: 0.701, Val Accuracy: 72.165
+Average cost -- validation set: 0.459
+Validation Confusion Matrix: 
+ [[ 45   3   9]
+ [ 13 167  17]
+ [ 24  42  68]]
+Early stopping: 0/25 (Best val_loss: 0.7006 at epoch 90)
+Epoch 95 finished! -- Loss: 0.712, Accuracy: 70.876, Val Loss: 0.694, Val Accuracy: 73.711
+Average cost -- validation set: 0.448
+Validation Confusion Matrix: 
+ [[ 45   3   9]
+ [ 11 168  18]
+ [ 22  39  73]]
+Early stopping: 0/25 (Best val_loss: 0.6940 at epoch 95)
+Epoch 100 finished! -- Loss: 0.742, Accuracy: 70.619, Val Loss: 0.694, Val Accuracy: 73.196
+Average cost -- validation set: 0.443
+Validation Confusion Matrix: 
+ [[ 45   3   9]
+ [ 12 169  16]
+ [ 24  40  70]]
+Early stopping: 3/25 (Best val_loss: 0.6937 at epoch 97)
+Epoch 105 finished! -- Loss: 0.720, Accuracy: 73.110, Val Loss: 0.690, Val Accuracy: 73.711
+Average cost -- validation set: 0.459
+Validation Confusion Matrix: 
+ [[ 44   3  10]
+ [ 10 169  18]
+ [ 21  40  73]]
+Early stopping: 0/25 (Best val_loss: 0.6898 at epoch 105)
+Epoch 110 finished! -- Loss: 0.754, Accuracy: 70.275, Val Loss: 0.687, Val Accuracy: 73.711
+Average cost -- validation set: 0.448
+Validation Confusion Matrix: 
+ [[ 46   3   8]
+ [ 11 166  20]
+ [ 24  36  74]]
+Early stopping: 0/25 (Best val_loss: 0.6870 at epoch 110)
+Epoch 115 finished! -- Loss: 0.682, Accuracy: 71.735, Val Loss: 0.683, Val Accuracy: 74.227
+Average cost -- validation set: 0.433
+Validation Confusion Matrix: 
+ [[ 46   3   8]
+ [  9 170  18]
+ [ 22  40  72]]
+Early stopping: 0/25 (Best val_loss: 0.6832 at epoch 115)
+Epoch 120 finished! -- Loss: 0.688, Accuracy: 73.024, Val Loss: 0.680, Val Accuracy: 74.485
+Average cost -- validation set: 0.436
+Validation Confusion Matrix: 
+ [[ 45   3   9]
+ [  9 171  17]
+ [ 22  39  73]]
+Early stopping: 0/25 (Best val_loss: 0.6798 at epoch 120)
+Epoch 125 finished! -- Loss: 0.723, Accuracy: 71.134, Val Loss: 0.677, Val Accuracy: 74.227
+Average cost -- validation set: 0.438
+Validation Confusion Matrix: 
+ [[ 46   3   8]
+ [  9 169  19]
+ [ 23  38  73]]
+Early stopping: 1/25 (Best val_loss: 0.6762 at epoch 124)
+Epoch 130 finished! -- Loss: 0.711, Accuracy: 72.251, Val Loss: 0.677, Val Accuracy: 74.742
+Average cost -- validation set: 0.423
+Validation Confusion Matrix: 
+ [[ 46   3   8]
+ [  9 171  17]
+ [ 23  38  73]]
+Early stopping: 6/25 (Best val_loss: 0.6762 at epoch 124)
+Epoch 135 finished! -- Loss: 0.705, Accuracy: 72.165, Val Loss: 0.673, Val Accuracy: 75.515
+Average cost -- validation set: 0.420
+Validation Confusion Matrix: 
+ [[ 45   3   9]
+ [  8 173  16]
+ [ 20  39  75]]
+Early stopping: 0/25 (Best val_loss: 0.6726 at epoch 135)
+Epoch 140 finished! -- Loss: 0.680, Accuracy: 73.540, Val Loss: 0.671, Val Accuracy: 75.258
+Average cost -- validation set: 0.423
+Validation Confusion Matrix: 
+ [[ 45   3   9]
+ [  8 173  16]
+ [ 22  38  74]]
+Early stopping: 0/25 (Best val_loss: 0.6707 at epoch 140)
+Epoch 145 finished! -- Loss: 0.686, Accuracy: 73.196, Val Loss: 0.668, Val Accuracy: 75.000
+Average cost -- validation set: 0.415
+Validation Confusion Matrix: 
+ [[ 47   3   7]
+ [  8 171  18]
+ [ 23  38  73]]
+Early stopping: 0/25 (Best val_loss: 0.6685 at epoch 145)
+Epoch 150 finished! -- Loss: 0.670, Accuracy: 74.828, Val Loss: 0.667, Val Accuracy: 75.258
+Average cost -- validation set: 0.418
+Validation Confusion Matrix: 
+ [[ 46   3   8]
+ [  8 172  17]
+ [ 22  38  74]]
+Early stopping: 1/25 (Best val_loss: 0.6661 at epoch 149)
+Epoch 155 finished! -- Loss: 0.703, Accuracy: 72.595, Val Loss: 0.667, Val Accuracy: 75.515
+Average cost -- validation set: 0.415
+Validation Confusion Matrix: 
+ [[ 46   3   8]
+ [  8 172  17]
+ [ 21  38  75]]
+Early stopping: 6/25 (Best val_loss: 0.6661 at epoch 149)
+Epoch 160 finished! -- Loss: 0.664, Accuracy: 73.625, Val Loss: 0.666, Val Accuracy: 75.000
+Average cost -- validation set: 0.420
+Validation Confusion Matrix: 
+ [[ 46   3   8]
+ [  8 172  17]
+ [ 23  38  73]]
+Early stopping: 1/25 (Best val_loss: 0.6655 at epoch 159)
+Epoch 165 finished! -- Loss: 0.667, Accuracy: 74.141, Val Loss: 0.663, Val Accuracy: 75.515
+Average cost -- validation set: 0.415
+Validation Confusion Matrix: 
+ [[ 46   3   8]
+ [  8 172  17]
+ [ 21  38  75]]
+Early stopping: 1/25 (Best val_loss: 0.6630 at epoch 164)
+Epoch 170 finished! -- Loss: 0.677, Accuracy: 73.625, Val Loss: 0.662, Val Accuracy: 75.258
+Average cost -- validation set: 0.418
+Validation Confusion Matrix: 
+ [[ 46   3   8]
+ [  8 172  17]
+ [ 22  38  74]]
+Early stopping: 1/25 (Best val_loss: 0.6615 at epoch 169)
+Epoch 175 finished! -- Loss: 0.657, Accuracy: 75.601, Val Loss: 0.658, Val Accuracy: 75.773
+Average cost -- validation set: 0.412
+Validation Confusion Matrix: 
+ [[ 46   3   8]
+ [  7 173  17]
+ [ 21  38  75]]
+Early stopping: 0/25 (Best val_loss: 0.6583 at epoch 175)
+Epoch 180 finished! -- Loss: 0.670, Accuracy: 74.141, Val Loss: 0.657, Val Accuracy: 75.773
+Average cost -- validation set: 0.412
+Validation Confusion Matrix: 
+ [[ 46   3   8]
+ [  7 173  17]
+ [ 21  38  75]]
+Early stopping: 2/25 (Best val_loss: 0.6548 at epoch 178)
+Epoch 185 finished! -- Loss: 0.656, Accuracy: 75.258, Val Loss: 0.655, Val Accuracy: 76.289
+Average cost -- validation set: 0.402
+Validation Confusion Matrix: 
+ [[ 46   3   8]
+ [  7 174  16]
+ [ 20  38  76]]
+Early stopping: 7/25 (Best val_loss: 0.6548 at epoch 178)
+Epoch 190 finished! -- Loss: 0.663, Accuracy: 73.110, Val Loss: 0.653, Val Accuracy: 76.031
+Average cost -- validation set: 0.410
+Validation Confusion Matrix: 
+ [[ 46   3   8]
+ [  6 174  17]
+ [ 20  39  75]]
+Early stopping: 0/25 (Best val_loss: 0.6527 at epoch 190)
+Epoch 195 finished! -- Loss: 0.655, Accuracy: 73.883, Val Loss: 0.654, Val Accuracy: 76.289
+Average cost -- validation set: 0.402
+Validation Confusion Matrix: 
+ [[ 48   1   8]
+ [  8 173  16]
+ [ 20  39  75]]
+Early stopping: 4/25 (Best val_loss: 0.6514 at epoch 191)
+Epoch 200 finished! -- Loss: 0.667, Accuracy: 73.024, Val Loss: 0.653, Val Accuracy: 76.289
+Average cost -- validation set: 0.402
+Validation Confusion Matrix: 
+ [[ 47   2   8]
+ [  7 174  16]
+ [ 19  40  75]]
+Early stopping: 9/25 (Best val_loss: 0.6514 at epoch 191)
+Epoch 205 finished! -- Loss: 0.651, Accuracy: 73.196, Val Loss: 0.652, Val Accuracy: 76.031
+Average cost -- validation set: 0.420
+Validation Confusion Matrix: 
+ [[ 46   2   9]
+ [  6 174  17]
+ [ 19  40  75]]
+Early stopping: 1/25 (Best val_loss: 0.6499 at epoch 204)
+Epoch 210 finished! -- Loss: 0.672, Accuracy: 73.110, Val Loss: 0.650, Val Accuracy: 76.031
+Average cost -- validation set: 0.425
+Validation Confusion Matrix: 
+ [[ 47   1   9]
+ [  6 173  18]
+ [ 19  40  75]]
+Early stopping: 0/25 (Best val_loss: 0.6497 at epoch 210)
+Epoch 215 finished! -- Loss: 0.646, Accuracy: 74.313, Val Loss: 0.649, Val Accuracy: 76.031
+Average cost -- validation set: 0.420
+Validation Confusion Matrix: 
+ [[ 46   2   9]
+ [  6 174  17]
+ [ 19  40  75]]
+Early stopping: 3/25 (Best val_loss: 0.6487 at epoch 212)
+Epoch 220 finished! -- Loss: 0.671, Accuracy: 74.313, Val Loss: 0.648, Val Accuracy: 75.515
+Average cost -- validation set: 0.436
+Validation Confusion Matrix: 
+ [[ 47   1   9]
+ [  6 172  19]
+ [ 21  39  74]]
+Early stopping: 2/25 (Best val_loss: 0.6468 at epoch 218)
+Epoch 225 finished! -- Loss: 0.647, Accuracy: 74.914, Val Loss: 0.647, Val Accuracy: 75.773
+Average cost -- validation set: 0.423
+Validation Confusion Matrix: 
+ [[ 46   2   9]
+ [  6 174  17]
+ [ 20  40  74]]
+Early stopping: 7/25 (Best val_loss: 0.6468 at epoch 218)
+Epoch 230 finished! -- Loss: 0.651, Accuracy: 74.313, Val Loss: 0.647, Val Accuracy: 76.546
+Average cost -- validation set: 0.415
+Validation Confusion Matrix: 
+ [[ 47   1   9]
+ [  6 174  17]
+ [ 18  40  76]]
+Early stopping: 3/25 (Best val_loss: 0.6459 at epoch 227)
+Epoch 235 finished! -- Loss: 0.644, Accuracy: 75.000, Val Loss: 0.646, Val Accuracy: 76.546
+Average cost -- validation set: 0.415
+Validation Confusion Matrix: 
+ [[ 47   1   9]
+ [  6 174  17]
+ [ 18  40  76]]
+Early stopping: 3/25 (Best val_loss: 0.6452 at epoch 232)
+Epoch 240 finished! -- Loss: 0.626, Accuracy: 74.828, Val Loss: 0.646, Val Accuracy: 76.546
+Average cost -- validation set: 0.415
+Validation Confusion Matrix: 
+ [[ 47   1   9]
+ [  6 174  17]
+ [ 18  40  76]]
+Early stopping: 8/25 (Best val_loss: 0.6452 at epoch 232)
+Epoch 245 finished! -- Loss: 0.636, Accuracy: 74.914, Val Loss: 0.645, Val Accuracy: 76.546
+Average cost -- validation set: 0.415
+Validation Confusion Matrix: 
+ [[ 47   1   9]
+ [  6 174  17]
+ [ 18  40  76]]
+Early stopping: 0/25 (Best val_loss: 0.6448 at epoch 245)
+Epoch 250 finished! -- Loss: 0.647, Accuracy: 75.601, Val Loss: 0.644, Val Accuracy: 76.289
+Average cost -- validation set: 0.423
+Validation Confusion Matrix: 
+ [[ 47   1   9]
+ [  6 173  18]
+ [ 18  40  76]]
+Early stopping: 1/25 (Best val_loss: 0.6423 at epoch 249)
+Epoch 255 finished! -- Loss: 0.627, Accuracy: 75.086, Val Loss: 0.646, Val Accuracy: 76.546
+Average cost -- validation set: 0.415
+Validation Confusion Matrix: 
+ [[ 47   1   9]
+ [  6 174  17]
+ [ 18  40  76]]
+Early stopping: 6/25 (Best val_loss: 0.6423 at epoch 249)
+Epoch 260 finished! -- Loss: 0.639, Accuracy: 75.344, Val Loss: 0.642, Val Accuracy: 76.289
+Average cost -- validation set: 0.428
+Validation Confusion Matrix: 
+ [[ 47   1   9]
+ [  6 172  19]
+ [ 18  39  77]]
+Early stopping: 1/25 (Best val_loss: 0.6418 at epoch 259)
+Epoch 265 finished! -- Loss: 0.653, Accuracy: 74.399, Val Loss: 0.641, Val Accuracy: 76.546
+Average cost -- validation set: 0.420
+Validation Confusion Matrix: 
+ [[ 47   1   9]
+ [  6 173  18]
+ [ 18  39  77]]
+Early stopping: 3/25 (Best val_loss: 0.6401 at epoch 262)
+Epoch 270 finished! -- Loss: 0.638, Accuracy: 75.172, Val Loss: 0.640, Val Accuracy: 76.546
+Average cost -- validation set: 0.425
+Validation Confusion Matrix: 
+ [[ 47   1   9]
+ [  6 172  19]
+ [ 17  39  78]]
+Early stopping: 4/25 (Best val_loss: 0.6390 at epoch 266)
+Epoch 275 finished! -- Loss: 0.625, Accuracy: 75.515, Val Loss: 0.640, Val Accuracy: 77.062
+Average cost -- validation set: 0.410
+Validation Confusion Matrix: 
+ [[ 47   1   9]
+ [  6 174  17]
+ [ 17  39  78]]
+Early stopping: 3/25 (Best val_loss: 0.6387 at epoch 272)
+Epoch 280 finished! -- Loss: 0.598, Accuracy: 77.320, Val Loss: 0.641, Val Accuracy: 76.804
+Average cost -- validation set: 0.412
+Validation Confusion Matrix: 
+ [[ 47   1   9]
+ [  6 174  17]
+ [ 17  40  77]]
+Early stopping: 3/25 (Best val_loss: 0.6378 at epoch 277)
+Epoch 285 finished! -- Loss: 0.644, Accuracy: 76.890, Val Loss: 0.638, Val Accuracy: 76.546
+Average cost -- validation set: 0.420
+Validation Confusion Matrix: 
+ [[ 47   1   9]
+ [  6 173  18]
+ [ 16  41  77]]
+Early stopping: 1/25 (Best val_loss: 0.6368 at epoch 284)
+Epoch 290 finished! -- Loss: 0.625, Accuracy: 75.945, Val Loss: 0.639, Val Accuracy: 76.289
+Average cost -- validation set: 0.423
+Validation Confusion Matrix: 
+ [[ 47   1   9]
+ [  6 173  18]
+ [ 16  42  76]]
+Early stopping: 4/25 (Best val_loss: 0.6354 at epoch 286)
+Epoch 295 finished! -- Loss: 0.613, Accuracy: 76.375, Val Loss: 0.639, Val Accuracy: 77.062
+Average cost -- validation set: 0.415
+Validation Confusion Matrix: 
+ [[ 47   1   9]
+ [  6 173  18]
+ [ 17  38  79]]
+Early stopping: 9/25 (Best val_loss: 0.6354 at epoch 286)
+Epoch 300 finished! -- Loss: 0.606, Accuracy: 76.117, Val Loss: 0.639, Val Accuracy: 76.804
+Average cost -- validation set: 0.412
+Validation Confusion Matrix: 
+ [[ 47   1   9]
+ [  6 174  17]
+ [ 17  40  77]]
+Early stopping: 14/25 (Best val_loss: 0.6354 at epoch 286)
+Epoch 305 finished! -- Loss: 0.614, Accuracy: 77.148, Val Loss: 0.639, Val Accuracy: 76.546
+Average cost -- validation set: 0.415
+Validation Confusion Matrix: 
+ [[ 47   1   9]
+ [  6 174  17]
+ [ 17  41  76]]
+Early stopping: 19/25 (Best val_loss: 0.6354 at epoch 286)
+Epoch 310 finished! -- Loss: 0.594, Accuracy: 78.093, Val Loss: 0.635, Val Accuracy: 76.804
+Average cost -- validation set: 0.418
+Validation Confusion Matrix: 
+ [[ 47   1   9]
+ [  6 173  18]
+ [ 17  39  78]]
+Early stopping: 1/25 (Best val_loss: 0.6347 at epoch 309)
+Epoch 315 finished! -- Loss: 0.645, Accuracy: 75.687, Val Loss: 0.635, Val Accuracy: 77.062
+Average cost -- validation set: 0.415
+Validation Confusion Matrix: 
+ [[ 47   1   9]
+ [  6 173  18]
+ [ 17  38  79]]
+Early stopping: 1/25 (Best val_loss: 0.6342 at epoch 314)
+Epoch 320 finished! -- Loss: 0.620, Accuracy: 77.062, Val Loss: 0.635, Val Accuracy: 77.062
+Average cost -- validation set: 0.415
+Validation Confusion Matrix: 
+ [[ 47   1   9]
+ [  6 173  18]
+ [ 16  39  79]]
+Early stopping: 2/25 (Best val_loss: 0.6332 at epoch 318)
+Epoch 325 finished! -- Loss: 0.635, Accuracy: 76.546, Val Loss: 0.634, Val Accuracy: 77.062
+Average cost -- validation set: 0.415
+Validation Confusion Matrix: 
+ [[ 47   1   9]
+ [  6 173  18]
+ [ 16  39  79]]
+Early stopping: 7/25 (Best val_loss: 0.6332 at epoch 318)
+Epoch 330 finished! -- Loss: 0.612, Accuracy: 75.773, Val Loss: 0.631, Val Accuracy: 77.062
+Average cost -- validation set: 0.420
+Validation Confusion Matrix: 
+ [[ 47   1   9]
+ [  6 172  19]
+ [ 16  38  80]]
+Early stopping: 4/25 (Best val_loss: 0.6306 at epoch 326)
+Epoch 335 finished! -- Loss: 0.609, Accuracy: 76.289, Val Loss: 0.635, Val Accuracy: 76.546
+Average cost -- validation set: 0.420
+Validation Confusion Matrix: 
+ [[ 47   1   9]
+ [  6 173  18]
+ [ 16  41  77]]
+Early stopping: 9/25 (Best val_loss: 0.6306 at epoch 326)
+Epoch 340 finished! -- Loss: 0.600, Accuracy: 75.515, Val Loss: 0.631, Val Accuracy: 76.804
+Average cost -- validation set: 0.418
+Validation Confusion Matrix: 
+ [[ 47   1   9]
+ [  6 173  18]
+ [ 16  40  78]]
+Early stopping: 14/25 (Best val_loss: 0.6306 at epoch 326)
+Epoch 345 finished! -- Loss: 0.593, Accuracy: 77.577, Val Loss: 0.631, Val Accuracy: 77.062
+Average cost -- validation set: 0.420
+Validation Confusion Matrix: 
+ [[ 47   1   9]
+ [  6 172  19]
+ [ 16  38  80]]
+Early stopping: 19/25 (Best val_loss: 0.6306 at epoch 326)
+Epoch 350 finished! -- Loss: 0.593, Accuracy: 77.062, Val Loss: 0.630, Val Accuracy: 77.062
+Average cost -- validation set: 0.420
+Validation Confusion Matrix: 
+ [[ 47   1   9]
+ [  6 172  19]
+ [ 16  38  80]]
+Early stopping: 1/25 (Best val_loss: 0.6290 at epoch 349)
+Epoch 355 finished! -- Loss: 0.596, Accuracy: 77.234, Val Loss: 0.630, Val Accuracy: 76.804
+Average cost -- validation set: 0.423
+Validation Confusion Matrix: 
+ [[ 47   1   9]
+ [  6 172  19]
+ [ 16  39  79]]
+Early stopping: 6/25 (Best val_loss: 0.6290 at epoch 349)
+Epoch 360 finished! -- Loss: 0.588, Accuracy: 76.546, Val Loss: 0.629, Val Accuracy: 76.804
+Average cost -- validation set: 0.428
+Validation Confusion Matrix: 
+ [[ 47   1   9]
+ [  6 171  20]
+ [ 17  37  80]]
+Early stopping: 0/25 (Best val_loss: 0.6287 at epoch 360)
+Epoch 365 finished! -- Loss: 0.586, Accuracy: 78.351, Val Loss: 0.627, Val Accuracy: 76.804
+Average cost -- validation set: 0.428
+Validation Confusion Matrix: 
+ [[ 47   1   9]
+ [  6 171  20]
+ [ 16  38  80]]
+Early stopping: 0/25 (Best val_loss: 0.6273 at epoch 365)
+Epoch 370 finished! -- Loss: 0.592, Accuracy: 78.351, Val Loss: 0.629, Val Accuracy: 77.062
+Average cost -- validation set: 0.415
+Validation Confusion Matrix: 
+ [[ 47   1   9]
+ [  6 173  18]
+ [ 16  39  79]]
+Early stopping: 5/25 (Best val_loss: 0.6273 at epoch 365)
+Epoch 375 finished! -- Loss: 0.585, Accuracy: 77.062, Val Loss: 0.629, Val Accuracy: 77.062
+Average cost -- validation set: 0.415
+Validation Confusion Matrix: 
+ [[ 47   1   9]
+ [  6 173  18]
+ [ 16  39  79]]
+Early stopping: 10/25 (Best val_loss: 0.6273 at epoch 365)
+Epoch 380 finished! -- Loss: 0.619, Accuracy: 76.976, Val Loss: 0.626, Val Accuracy: 77.320
+Average cost -- validation set: 0.412
+Validation Confusion Matrix: 
+ [[ 47   1   9]
+ [  6 173  18]
+ [ 14  40  80]]
+Early stopping: 0/25 (Best val_loss: 0.6264 at epoch 380)
+Epoch 385 finished! -- Loss: 0.599, Accuracy: 77.491, Val Loss: 0.623, Val Accuracy: 76.804
+Average cost -- validation set: 0.423
+Validation Confusion Matrix: 
+ [[ 47   1   9]
+ [  6 172  19]
+ [ 16  39  79]]
+Early stopping: 0/25 (Best val_loss: 0.6233 at epoch 385)
+Epoch 390 finished! -- Loss: 0.572, Accuracy: 77.663, Val Loss: 0.622, Val Accuracy: 76.804
+Average cost -- validation set: 0.428
+Validation Confusion Matrix: 
+ [[ 47   1   9]
+ [  6 171  20]
+ [ 14  40  80]]
+Early stopping: 0/25 (Best val_loss: 0.6216 at epoch 390)
+Epoch 395 finished! -- Loss: 0.616, Accuracy: 77.921, Val Loss: 0.626, Val Accuracy: 76.804
+Average cost -- validation set: 0.418
+Validation Confusion Matrix: 
+ [[ 47   1   9]
+ [  6 173  18]
+ [ 14  42  78]]
+Early stopping: 5/25 (Best val_loss: 0.6216 at epoch 390)
+Epoch 400 finished! -- Loss: 0.577, Accuracy: 77.921, Val Loss: 0.628, Val Accuracy: 77.062
+Average cost -- validation set: 0.410
+Validation Confusion Matrix: 
+ [[ 47   1   9]
+ [  6 174  17]
+ [ 14  42  78]]
+Early stopping: 10/25 (Best val_loss: 0.6216 at epoch 390)
+Epoch 405 finished! -- Loss: 0.575, Accuracy: 78.265, Val Loss: 0.625, Val Accuracy: 76.289
+Average cost -- validation set: 0.428
+Validation Confusion Matrix: 
+ [[ 47   1   9]
+ [  7 171  19]
+ [ 15  41  78]]
+Early stopping: 15/25 (Best val_loss: 0.6216 at epoch 390)
+Epoch 410 finished! -- Loss: 0.549, Accuracy: 79.639, Val Loss: 0.627, Val Accuracy: 77.062
+Average cost -- validation set: 0.410
+Validation Confusion Matrix: 
+ [[ 47   1   9]
+ [  6 174  17]
+ [ 14  42  78]]
+Early stopping: 20/25 (Best val_loss: 0.6216 at epoch 390)
+Early stopping triggered! Restoring weights from epoch 390
+Training stopped early at epoch 415
+--------------------------------------------------
+Used cost matrix -- real cost: 
+ tensor([[0., 1., 5.],
+        [1., 0., 3.],
+        [1., 1., 0.]])
+Used cost matrix -- normalized cost: 
+ tensor([[0.0000, 0.0833, 0.4167],
+        [0.0833, 0.0000, 0.2500],
+        [0.0833, 0.0833, 0.0000]])
+--------------------------------------------------
+---------------Train Metrics Summary---------------
+Train Loss: 0.500, Train Accuracy: 82.302
+Average cost: 0.302
+AEC: 0.555
+RWWCE: 1.157
+Train Confusion Matrix: 
+ [[151   6  14]
+ [ 13 531  45]
+ [ 32  96 276]]
+Train Classification Report: 
+               precision    recall  f1-score   support
+
+           0       0.77      0.88      0.82       171
+           1       0.84      0.90      0.87       589
+           2       0.82      0.68      0.75       404
+
+    accuracy                           0.82      1164
+   macro avg       0.81      0.82      0.81      1164
+weighted avg       0.82      0.82      0.82      1164
+
+
+
+---------------Train (eval cost) Metrics Summary---------------
+Train (eval cost) Loss: 0.489, Train (eval cost) Accuracy: 82.302
+Average cost: 1.070
+AEC: 1.957
+RWWCE: 2.993
+Train (eval cost) Confusion Matrix: 
+ [[151   6  14]
+ [ 13 531  45]
+ [ 32  96 276]]
+Train (eval cost) Classification Report: 
+               precision    recall  f1-score   support
+
+           0       0.77      0.88      0.82       171
+           1       0.84      0.90      0.87       589
+           2       0.82      0.68      0.75       404
+
+    accuracy                           0.82      1164
+   macro avg       0.81      0.82      0.81      1164
+weighted avg       0.82      0.82      0.82      1164
+
+
+
+---------------Validation Metrics Summary---------------
+Validation Loss: 0.622, Validation Accuracy: 76.804
+Average cost: 0.428
+AEC: 0.624
+RWWCE: 1.444
+Validation Confusion Matrix: 
+ [[ 47   1   9]
+ [  6 171  20]
+ [ 14  40  80]]
+Validation Classification Report: 
+               precision    recall  f1-score   support
+
+           0       0.70      0.82      0.76        57
+           1       0.81      0.87      0.84       197
+           2       0.73      0.60      0.66       134
+
+    accuracy                           0.77       388
+   macro avg       0.75      0.76      0.75       388
+weighted avg       0.77      0.77      0.76       388
+
+
+
+---------------Validation (eval cost) Metrics Summary---------------
+Validation (eval cost) Loss: 0.627, Validation (eval cost) Accuracy: 76.804
+Average cost: 1.485
+AEC: 2.191
+RWWCE: 3.668
+Validation (eval cost) Confusion Matrix: 
+ [[ 47   1   9]
+ [  6 171  20]
+ [ 14  40  80]]
+Validation (eval cost) Classification Report: 
+               precision    recall  f1-score   support
+
+           0       0.70      0.82      0.76        57
+           1       0.81      0.87      0.84       197
+           2       0.73      0.60      0.66       134
+
+    accuracy                           0.77       388
+   macro avg       0.75      0.76      0.75       388
+weighted avg       0.77      0.77      0.76       388
+
+
+
+---------------Test Metrics Summary---------------
+Test Loss: 0.779, Test Accuracy: 72.237
+Average cost: 0.571
+AEC: 0.695
+RWWCE: 1.877
+Test Confusion Matrix: 
+ [[ 35   8  14]
+ [  3 165  29]
+ [ 11  43  81]]
+Test Classification Report: 
+               precision    recall  f1-score   support
+
+           0       0.71      0.61      0.66        57
+           1       0.76      0.84      0.80       197
+           2       0.65      0.60      0.63       135
+
+    accuracy                           0.72       389
+   macro avg       0.71      0.68      0.69       389
+weighted avg       0.72      0.72      0.72       389
+
+
+
+---------------Test (eval cost) Metrics Summary---------------
+Test (eval cost) Loss: 0.788, Test (eval cost) Accuracy: 72.237
+Average cost: 1.941
+AEC: 2.407
+RWWCE: 4.930
+Test (eval cost) Confusion Matrix: 
+ [[ 35   8  14]
+ [  3 165  29]
+ [ 11  43  81]]
+Test (eval cost) Classification Report: 
+               precision    recall  f1-score   support
+
+           0       0.71      0.61      0.66        57
+           1       0.76      0.84      0.80       197
+           2       0.65      0.60      0.63       135
+
+    accuracy                           0.72       389
+   macro avg       0.71      0.68      0.69       389
+weighted avg       0.72      0.72      0.72       389
+
+
+

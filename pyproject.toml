@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=64", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "caft"
+version = "0.1.0"
+description = "Constraint-Guided Adaptive Fine-Tuning of Neural Networks"
+authors = [
+    {name = "DachtKr",email = "kristina.dachtler@thi.de"}
+]
+readme = "README.md"
+requires-python = ">=3.10"
+
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["src*", "config*"]

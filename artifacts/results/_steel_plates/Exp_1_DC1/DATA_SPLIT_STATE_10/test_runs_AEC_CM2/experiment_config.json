@@ -1,0 +1,17 @@
+{
+    "COST_MATRIX_RAW": "[[0.0, 1.0, 10.0], [1.0, 0.0, 10.0], [1.0, 1.0, 0.0]]",
+    "LEARNING_RATE": 5e-05,
+    "TRAIN_VAL_TEST_SIZE": [
+        0.6,
+        0.2,
+        0.2
+    ],
+    "DATA_SPLIT_STATE": 10,
+    "COST_MATRIX_NAME": "CM2",
+    "BATCH_SIZE": 64,
+    "NUM_EPOCHS": 500,
+    "EARLY_STOPPING": true,
+    "PATIENCE": 25,
+    "MONITOR": "val_loss",
+    "MODE": "min"
+}

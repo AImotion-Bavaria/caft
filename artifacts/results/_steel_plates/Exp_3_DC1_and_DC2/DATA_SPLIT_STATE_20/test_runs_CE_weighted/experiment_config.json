@@ -1,0 +1,17 @@
+{
+    "COST_MATRIX_RAW": "[[0.0, 3.0, 13.0], [2.0, 0.0, 12.0], [6.0, 3.0, 0.0]]",
+    "LEARNING_RATE": 5e-05,
+    "TRAIN_VAL_TEST_SIZE": [
+        0.6,
+        0.2,
+        0.2
+    ],
+    "DATA_SPLIT_STATE": 20,
+    "BATCH_SIZE": 64,
+    "NUM_EPOCHS": 500,
+    "EARLY_STOPPING": true,
+    "PATIENCE": 25,
+    "MONITOR": "val_loss",
+    "MODE": "min",
+    "USE_CLASS_WEIGHTS": true
+}

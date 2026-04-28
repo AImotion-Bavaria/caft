@@ -1,0 +1,1042 @@
+Nach Skalierung:
+  Mean: tensor([-0.0122, -0.0120, -0.0173, -0.0173,  0.0319])
+  Std:  tensor([0.9955, 0.9977, 0.9712, 0.9712, 1.3995])
+Length train data: 1164, Num batches: 19
+============================================================
+Run 1 -- PHASE 1: Pre-Training (CrossEntropy)
+============================================================
+Device: cuda
+Class weights: tensor([1.7507, 0.5083, 0.7410])
+Epoch 5 finished! -- Loss: 1.086, Accuracy: 46.134, Val Loss: 1.081, Val Accuracy: 49.227
+Average cost -- validation set: 5.982
+Validation Confusion Matrix: 
+ [[  0   1  56]
+ [  0  67 130]
+ [  0  10 124]]
+Early stopping: 0/25 (Best val_loss: 1.0812 at epoch 5)
+Epoch 10 finished! -- Loss: 1.043, Accuracy: 51.718, Val Loss: 1.027, Val Accuracy: 54.381
+Average cost -- validation set: 4.147
+Validation Confusion Matrix: 
+ [[31  2 24]
+ [14 96 87]
+ [23 27 84]]
+Early stopping: 0/25 (Best val_loss: 1.0272 at epoch 10)
+Epoch 15 finished! -- Loss: 0.963, Accuracy: 50.687, Val Loss: 0.946, Val Accuracy: 50.773
+Average cost -- validation set: 3.211
+Validation Confusion Matrix: 
+ [[ 52   1   4]
+ [ 39 105  53]
+ [ 65  29  40]]
+Early stopping: 0/25 (Best val_loss: 0.9464 at epoch 15)
+Epoch 20 finished! -- Loss: 0.892, Accuracy: 54.811, Val Loss: 0.877, Val Accuracy: 53.093
+Average cost -- validation set: 3.108
+Validation Confusion Matrix: 
+ [[ 49   1   7]
+ [ 34 113  50]
+ [ 58  32  44]]
+Early stopping: 0/25 (Best val_loss: 0.8774 at epoch 20)
+Epoch 25 finished! -- Loss: 0.839, Accuracy: 56.787, Val Loss: 0.824, Val Accuracy: 54.639
+Average cost -- validation set: 3.149
+Validation Confusion Matrix: 
+ [[ 48   1   8]
+ [ 28 116  53]
+ [ 55  31  48]]
+Early stopping: 0/25 (Best val_loss: 0.8239 at epoch 25)
+Epoch 30 finished! -- Loss: 0.813, Accuracy: 60.309, Val Loss: 0.786, Val Accuracy: 59.278
+Average cost -- validation set: 2.722
+Validation Confusion Matrix: 
+ [[ 48   1   8]
+ [ 26 128  43]
+ [ 47  33  54]]
+Early stopping: 0/25 (Best val_loss: 0.7864 at epoch 30)
+Epoch 35 finished! -- Loss: 0.777, Accuracy: 60.395, Val Loss: 0.757, Val Accuracy: 61.598
+Average cost -- validation set: 2.652
+Validation Confusion Matrix: 
+ [[ 50   0   7]
+ [ 25 127  45]
+ [ 44  28  62]]
+Early stopping: 0/25 (Best val_loss: 0.7569 at epoch 35)
+Epoch 40 finished! -- Loss: 0.794, Accuracy: 61.254, Val Loss: 0.732, Val Accuracy: 63.918
+Average cost -- validation set: 2.552
+Validation Confusion Matrix: 
+ [[ 50   0   7]
+ [ 22 131  44]
+ [ 42  25  67]]
+Early stopping: 0/25 (Best val_loss: 0.7322 at epoch 40)
+Epoch 45 finished! -- Loss: 0.758, Accuracy: 64.175, Val Loss: 0.714, Val Accuracy: 66.753
+Average cost -- validation set: 2.245
+Validation Confusion Matrix: 
+ [[ 52   0   5]
+ [ 22 138  37]
+ [ 41  24  69]]
+Early stopping: 0/25 (Best val_loss: 0.7136 at epoch 45)
+Epoch 50 finished! -- Loss: 0.738, Accuracy: 62.199, Val Loss: 0.702, Val Accuracy: 65.722
+Average cost -- validation set: 2.320
+Validation Confusion Matrix: 
+ [[ 52   0   5]
+ [ 23 135  39]
+ [ 41  25  68]]
+Early stopping: 1/25 (Best val_loss: 0.7016 at epoch 49)
+Epoch 55 finished! -- Loss: 0.730, Accuracy: 64.003, Val Loss: 0.685, Val Accuracy: 66.495
+Average cost -- validation set: 2.258
+Validation Confusion Matrix: 
+ [[ 51   0   6]
+ [ 21 139  37]
+ [ 38  28  68]]
+Early stopping: 0/25 (Best val_loss: 0.6846 at epoch 55)
+Epoch 60 finished! -- Loss: 0.701, Accuracy: 66.667, Val Loss: 0.674, Val Accuracy: 67.010
+Average cost -- validation set: 2.098
+Validation Confusion Matrix: 
+ [[ 51   1   5]
+ [ 22 143  32]
+ [ 38  30  66]]
+Early stopping: 0/25 (Best val_loss: 0.6736 at epoch 60)
+Epoch 65 finished! -- Loss: 0.723, Accuracy: 64.691, Val Loss: 0.665, Val Accuracy: 67.784
+Average cost -- validation set: 2.026
+Validation Confusion Matrix: 
+ [[ 53   0   4]
+ [ 22 144  31]
+ [ 38  30  66]]
+Early stopping: 1/25 (Best val_loss: 0.6651 at epoch 64)
+Epoch 70 finished! -- Loss: 0.692, Accuracy: 68.041, Val Loss: 0.656, Val Accuracy: 68.814
+Average cost -- validation set: 2.005
+Validation Confusion Matrix: 
+ [[ 49   1   7]
+ [ 21 147  29]
+ [ 35  28  71]]
+Early stopping: 0/25 (Best val_loss: 0.6561 at epoch 70)
+Epoch 75 finished! -- Loss: 0.692, Accuracy: 67.526, Val Loss: 0.648, Val Accuracy: 69.072
+Average cost -- validation set: 1.879
+Validation Confusion Matrix: 
+ [[ 52   0   5]
+ [ 23 148  26]
+ [ 36  30  68]]
+Early stopping: 0/25 (Best val_loss: 0.6482 at epoch 75)
+Epoch 80 finished! -- Loss: 0.681, Accuracy: 68.299, Val Loss: 0.642, Val Accuracy: 70.103
+Average cost -- validation set: 1.856
+Validation Confusion Matrix: 
+ [[ 51   0   6]
+ [ 21 151  25]
+ [ 36  28  70]]
+Early stopping: 0/25 (Best val_loss: 0.6420 at epoch 80)
+Epoch 85 finished! -- Loss: 0.659, Accuracy: 68.385, Val Loss: 0.637, Val Accuracy: 70.103
+Average cost -- validation set: 1.820
+Validation Confusion Matrix: 
+ [[ 51   0   6]
+ [ 23 150  24]
+ [ 35  28  71]]
+Early stopping: 0/25 (Best val_loss: 0.6369 at epoch 85)
+Epoch 90 finished! -- Loss: 0.662, Accuracy: 70.533, Val Loss: 0.636, Val Accuracy: 71.392
+Average cost -- validation set: 1.624
+Validation Confusion Matrix: 
+ [[ 51   0   6]
+ [ 21 159  17]
+ [ 35  32  67]]
+Early stopping: 2/25 (Best val_loss: 0.6353 at epoch 88)
+Epoch 95 finished! -- Loss: 0.666, Accuracy: 67.784, Val Loss: 0.632, Val Accuracy: 70.876
+Average cost -- validation set: 1.693
+Validation Confusion Matrix: 
+ [[ 52   0   5]
+ [ 23 154  20]
+ [ 37  28  69]]
+Early stopping: 3/25 (Best val_loss: 0.6285 at epoch 92)
+Epoch 100 finished! -- Loss: 0.648, Accuracy: 69.072, Val Loss: 0.627, Val Accuracy: 70.619
+Average cost -- validation set: 1.716
+Validation Confusion Matrix: 
+ [[ 52   0   5]
+ [ 23 153  21]
+ [ 36  29  69]]
+Early stopping: 0/25 (Best val_loss: 0.6266 at epoch 100)
+Epoch 105 finished! -- Loss: 0.630, Accuracy: 69.588, Val Loss: 0.625, Val Accuracy: 70.876
+Average cost -- validation set: 1.755
+Validation Confusion Matrix: 
+ [[ 50   0   7]
+ [ 22 154  21]
+ [ 35  28  71]]
+Early stopping: 4/25 (Best val_loss: 0.6247 at epoch 101)
+Epoch 110 finished! -- Loss: 0.647, Accuracy: 69.674, Val Loss: 0.618, Val Accuracy: 71.392
+Average cost -- validation set: 1.688
+Validation Confusion Matrix: 
+ [[ 50   0   7]
+ [ 21 157  19]
+ [ 34  30  70]]
+Early stopping: 0/25 (Best val_loss: 0.6180 at epoch 110)
+Epoch 115 finished! -- Loss: 0.634, Accuracy: 69.158, Val Loss: 0.612, Val Accuracy: 71.392
+Average cost -- validation set: 1.727
+Validation Confusion Matrix: 
+ [[ 50   0   7]
+ [ 21 155  21]
+ [ 33  29  72]]
+Early stopping: 0/25 (Best val_loss: 0.6122 at epoch 115)
+Epoch 120 finished! -- Loss: 0.634, Accuracy: 69.502, Val Loss: 0.613, Val Accuracy: 72.423
+Average cost -- validation set: 1.631
+Validation Confusion Matrix: 
+ [[ 50   0   7]
+ [ 19 160  18]
+ [ 33  30  71]]
+Early stopping: 5/25 (Best val_loss: 0.6122 at epoch 115)
+Epoch 125 finished! -- Loss: 0.636, Accuracy: 69.674, Val Loss: 0.606, Val Accuracy: 72.423
+Average cost -- validation set: 1.686
+Validation Confusion Matrix: 
+ [[ 50   0   7]
+ [ 19 157  21]
+ [ 31  29  74]]
+Early stopping: 1/25 (Best val_loss: 0.6053 at epoch 124)
+Epoch 130 finished! -- Loss: 0.609, Accuracy: 71.048, Val Loss: 0.602, Val Accuracy: 71.907
+Average cost -- validation set: 1.747
+Validation Confusion Matrix: 
+ [[ 50   0   7]
+ [ 19 155  23]
+ [ 31  29  74]]
+Early stopping: 0/25 (Best val_loss: 0.6025 at epoch 130)
+Epoch 135 finished! -- Loss: 0.624, Accuracy: 71.907, Val Loss: 0.600, Val Accuracy: 72.423
+Average cost -- validation set: 1.709
+Validation Confusion Matrix: 
+ [[ 50   0   7]
+ [ 19 156  22]
+ [ 31  28  75]]
+Early stopping: 0/25 (Best val_loss: 0.6005 at epoch 135)
+Epoch 140 finished! -- Loss: 0.603, Accuracy: 72.251, Val Loss: 0.599, Val Accuracy: 73.196
+Average cost -- validation set: 1.601
+Validation Confusion Matrix: 
+ [[ 50   0   7]
+ [ 19 159  19]
+ [ 29  30  75]]
+Early stopping: 1/25 (Best val_loss: 0.5982 at epoch 139)
+Epoch 145 finished! -- Loss: 0.629, Accuracy: 70.361, Val Loss: 0.594, Val Accuracy: 72.423
+Average cost -- validation set: 1.693
+Validation Confusion Matrix: 
+ [[ 50   0   7]
+ [ 19 156  22]
+ [ 29  30  75]]
+Early stopping: 0/25 (Best val_loss: 0.5937 at epoch 145)
+Epoch 150 finished! -- Loss: 0.588, Accuracy: 71.564, Val Loss: 0.596, Val Accuracy: 72.938
+Average cost -- validation set: 1.634
+Validation Confusion Matrix: 
+ [[ 49   0   8]
+ [ 19 159  19]
+ [ 29  30  75]]
+Early stopping: 5/25 (Best val_loss: 0.5937 at epoch 145)
+Epoch 155 finished! -- Loss: 0.621, Accuracy: 70.017, Val Loss: 0.597, Val Accuracy: 73.711
+Average cost -- validation set: 1.582
+Validation Confusion Matrix: 
+ [[ 49   0   8]
+ [ 18 161  18]
+ [ 28  30  76]]
+Early stopping: 10/25 (Best val_loss: 0.5937 at epoch 145)
+Epoch 160 finished! -- Loss: 0.604, Accuracy: 70.619, Val Loss: 0.596, Val Accuracy: 72.938
+Average cost -- validation set: 1.611
+Validation Confusion Matrix: 
+ [[ 49   0   8]
+ [ 19 160  18]
+ [ 29  31  74]]
+Early stopping: 15/25 (Best val_loss: 0.5937 at epoch 145)
+Epoch 165 finished! -- Loss: 0.609, Accuracy: 71.478, Val Loss: 0.592, Val Accuracy: 73.454
+Average cost -- validation set: 1.572
+Validation Confusion Matrix: 
+ [[ 50   0   7]
+ [ 18 161  18]
+ [ 29  31  74]]
+Early stopping: 1/25 (Best val_loss: 0.5917 at epoch 164)
+Epoch 170 finished! -- Loss: 0.616, Accuracy: 72.766, Val Loss: 0.592, Val Accuracy: 73.454
+Average cost -- validation set: 1.590
+Validation Confusion Matrix: 
+ [[ 49   0   8]
+ [ 18 161  18]
+ [ 28  31  75]]
+Early stopping: 4/25 (Best val_loss: 0.5915 at epoch 166)
+Epoch 175 finished! -- Loss: 0.597, Accuracy: 70.533, Val Loss: 0.593, Val Accuracy: 73.454
+Average cost -- validation set: 1.575
+Validation Confusion Matrix: 
+ [[ 49   0   8]
+ [ 18 162  17]
+ [ 29  31  74]]
+Early stopping: 4/25 (Best val_loss: 0.5901 at epoch 171)
+Epoch 180 finished! -- Loss: 0.572, Accuracy: 71.392, Val Loss: 0.589, Val Accuracy: 73.454
+Average cost -- validation set: 1.590
+Validation Confusion Matrix: 
+ [[ 49   0   8]
+ [ 18 161  18]
+ [ 28  31  75]]
+Early stopping: 0/25 (Best val_loss: 0.5888 at epoch 180)
+Epoch 185 finished! -- Loss: 0.604, Accuracy: 72.165, Val Loss: 0.590, Val Accuracy: 73.454
+Average cost -- validation set: 1.575
+Validation Confusion Matrix: 
+ [[ 49   0   8]
+ [ 18 162  17]
+ [ 29  31  74]]
+Early stopping: 3/25 (Best val_loss: 0.5852 at epoch 182)
+Epoch 190 finished! -- Loss: 0.592, Accuracy: 71.134, Val Loss: 0.589, Val Accuracy: 73.454
+Average cost -- validation set: 1.575
+Validation Confusion Matrix: 
+ [[ 49   0   8]
+ [ 18 162  17]
+ [ 29  31  74]]
+Early stopping: 8/25 (Best val_loss: 0.5852 at epoch 182)
+Epoch 195 finished! -- Loss: 0.590, Accuracy: 71.993, Val Loss: 0.585, Val Accuracy: 73.711
+Average cost -- validation set: 1.590
+Validation Confusion Matrix: 
+ [[ 49   0   8]
+ [ 18 161  18]
+ [ 29  29  76]]
+Early stopping: 0/25 (Best val_loss: 0.5851 at epoch 195)
+Epoch 200 finished! -- Loss: 0.581, Accuracy: 73.454, Val Loss: 0.585, Val Accuracy: 74.227
+Average cost -- validation set: 1.567
+Validation Confusion Matrix: 
+ [[ 48   1   8]
+ [ 15 164  18]
+ [ 27  31  76]]
+Early stopping: 5/25 (Best val_loss: 0.5851 at epoch 195)
+Epoch 205 finished! -- Loss: 0.572, Accuracy: 73.540, Val Loss: 0.582, Val Accuracy: 75.000
+Average cost -- validation set: 1.528
+Validation Confusion Matrix: 
+ [[ 48   1   8]
+ [ 15 164  18]
+ [ 25  30  79]]
+Early stopping: 3/25 (Best val_loss: 0.5817 at epoch 202)
+Epoch 210 finished! -- Loss: 0.616, Accuracy: 73.454, Val Loss: 0.582, Val Accuracy: 74.742
+Average cost -- validation set: 1.523
+Validation Confusion Matrix: 
+ [[ 50   0   7]
+ [ 16 163  18]
+ [ 27  30  77]]
+Early stopping: 8/25 (Best val_loss: 0.5817 at epoch 202)
+Epoch 215 finished! -- Loss: 0.583, Accuracy: 73.282, Val Loss: 0.584, Val Accuracy: 74.742
+Average cost -- validation set: 1.526
+Validation Confusion Matrix: 
+ [[ 49   1   7]
+ [ 15 164  18]
+ [ 27  30  77]]
+Early stopping: 13/25 (Best val_loss: 0.5817 at epoch 202)
+Epoch 220 finished! -- Loss: 0.577, Accuracy: 72.337, Val Loss: 0.579, Val Accuracy: 74.742
+Average cost -- validation set: 1.606
+Validation Confusion Matrix: 
+ [[ 49   1   7]
+ [ 14 161  22]
+ [ 25  29  80]]
+Early stopping: 1/25 (Best val_loss: 0.5779 at epoch 219)
+Epoch 225 finished! -- Loss: 0.592, Accuracy: 73.024, Val Loss: 0.580, Val Accuracy: 74.742
+Average cost -- validation set: 1.526
+Validation Confusion Matrix: 
+ [[ 49   1   7]
+ [ 15 164  18]
+ [ 27  30  77]]
+Early stopping: 6/25 (Best val_loss: 0.5779 at epoch 219)
+Epoch 230 finished! -- Loss: 0.574, Accuracy: 73.883, Val Loss: 0.577, Val Accuracy: 74.485
+Average cost -- validation set: 1.557
+Validation Confusion Matrix: 
+ [[ 49   1   7]
+ [ 15 163  19]
+ [ 27  30  77]]
+Early stopping: 0/25 (Best val_loss: 0.5773 at epoch 230)
+Epoch 235 finished! -- Loss: 0.553, Accuracy: 72.766, Val Loss: 0.575, Val Accuracy: 74.742
+Average cost -- validation set: 1.544
+Validation Confusion Matrix: 
+ [[ 49   1   7]
+ [ 14 164  19]
+ [ 26  31  77]]
+Early stopping: 2/25 (Best val_loss: 0.5730 at epoch 233)
+Epoch 240 finished! -- Loss: 0.576, Accuracy: 73.368, Val Loss: 0.579, Val Accuracy: 75.000
+Average cost -- validation set: 1.521
+Validation Confusion Matrix: 
+ [[ 49   1   7]
+ [ 14 165  18]
+ [ 27  30  77]]
+Early stopping: 7/25 (Best val_loss: 0.5730 at epoch 233)
+Epoch 245 finished! -- Loss: 0.570, Accuracy: 71.735, Val Loss: 0.581, Val Accuracy: 75.000
+Average cost -- validation set: 1.546
+Validation Confusion Matrix: 
+ [[ 49   1   7]
+ [ 13 165  19]
+ [ 27  30  77]]
+Early stopping: 12/25 (Best val_loss: 0.5730 at epoch 233)
+Epoch 250 finished! -- Loss: 0.565, Accuracy: 72.766, Val Loss: 0.581, Val Accuracy: 75.515
+Average cost -- validation set: 1.518
+Validation Confusion Matrix: 
+ [[ 49   1   7]
+ [ 12 166  19]
+ [ 25  31  78]]
+Early stopping: 17/25 (Best val_loss: 0.5730 at epoch 233)
+Epoch 255 finished! -- Loss: 0.551, Accuracy: 73.282, Val Loss: 0.581, Val Accuracy: 75.000
+Average cost -- validation set: 1.539
+Validation Confusion Matrix: 
+ [[ 49   1   7]
+ [ 13 165  19]
+ [ 26  31  77]]
+Early stopping: 22/25 (Best val_loss: 0.5730 at epoch 233)
+Early stopping triggered! Restoring weights from epoch 233
+Training stopped early at epoch 258
+
+--- Phase 1 Evaluation ---
+---------------Train Metrics Summary---------------
+Train Loss: 0.492, Train Accuracy: 77.577
+Average cost: 1.379
+AEC: 2.408
+RWWCE: 3.762
+Train Confusion Matrix: 
+ [[157   3  11]
+ [ 38 491  60]
+ [ 70  79 255]]
+Train Classification Report: 
+               precision    recall  f1-score   support
+
+           0       0.59      0.92      0.72       171
+           1       0.86      0.83      0.85       589
+           2       0.78      0.63      0.70       404
+
+    accuracy                           0.78      1164
+   macro avg       0.74      0.79      0.75      1164
+weighted avg       0.79      0.78      0.78      1164
+
+
+
+---------------Validation Metrics Summary---------------
+Validation Loss: 0.573, Validation Accuracy: 74.227
+Average cost: 1.621
+AEC: 2.559
+RWWCE: 4.237
+Validation Confusion Matrix: 
+ [[ 49   1   7]
+ [ 14 161  22]
+ [ 25  31  78]]
+Validation Classification Report: 
+               precision    recall  f1-score   support
+
+           0       0.56      0.86      0.68        57
+           1       0.83      0.82      0.83       197
+           2       0.73      0.58      0.65       134
+
+    accuracy                           0.74       388
+   macro avg       0.71      0.75      0.72       388
+weighted avg       0.76      0.74      0.74       388
+
+
+
+---------------Test Metrics Summary---------------
+Test Loss: 0.750, Test Accuracy: 69.923
+Average cost: 2.015
+AEC: 2.745
+RWWCE: 4.833
+Test Confusion Matrix: 
+ [[ 43   4  10]
+ [ 15 151  31]
+ [ 23  34  78]]
+Test Classification Report: 
+               precision    recall  f1-score   support
+
+           0       0.53      0.75      0.62        57
+           1       0.80      0.77      0.78       197
+           2       0.66      0.58      0.61       135
+
+    accuracy                           0.70       389
+   macro avg       0.66      0.70      0.67       389
+weighted avg       0.71      0.70      0.70       389
+
+
+
+Phase 1 FC2-Rate (val): 0.1142
+Phase 1 weights saved to: /home/kristinadachtler/Notebooks/Goal-orientedML/artifacts/models/model_weights/_steel_plates/Exp_1/DATA_SPLIT_STATE_20/pretrained/steel_plates_pretrained_weights_1.pth
+
+============================================================
+Run 1 -- PHASE 2: Constraint-Aware Fine-Tuning (RWWCE)
+============================================================
+Constraint: FC2-Rate <= 0.005
+Initial cost matrix (zeros): costs are built via Lagrangian multipliers
+Fine-tuning LR: 5e-06
+
+============================================================
+DEBUG: Evaluation with loaded Phase 1 weights BEFORE fine-tuning
+============================================================
+Val Accuracy: 74.227
+Val Confusion Matrix:
+[[ 49   1   7]
+ [ 14 161  22]
+ [ 25  31  78]]
+Val Average Cost: 1.621
+Test Accuracy: 69.923
+Test Confusion Matrix:
+[[ 43   4  10]
+ [ 15 151  31]
+ [ 23  34  78]]
+Test Average Cost: 2.015
+Val FC2-Rate: 0.1142
+============================================================
+[Epoch   1/1500 | Cost-Step 0] Loss=0.8252 | Acc=73.0% | ValLoss=0.7932 | ValAcc=75.0% | AvgCost=1.528 | FC2-Rate=0.1024 (max=0.005) | lambda=1.0
+[Epoch   2/1500 | Cost-Step 0] Loss=0.8034 | Acc=73.2% | ValLoss=0.7864 | ValAcc=75.8% | AvgCost=1.487 | FC2-Rate=0.0984 (max=0.005) | lambda=1.0
+[Epoch   3/1500 | Cost-Step 0] Loss=0.7995 | Acc=73.2% | ValLoss=0.7804 | ValAcc=75.8% | AvgCost=1.487 | FC2-Rate=0.0984 (max=0.005) | lambda=1.0
+[Epoch   4/1500 | Cost-Step 0] Loss=0.8048 | Acc=72.6% | ValLoss=0.7752 | ValAcc=75.3% | AvgCost=1.503 | FC2-Rate=0.0984 (max=0.005) | lambda=1.0
+[Epoch   5/1500 | Cost-Step 0] Loss=0.7897 | Acc=74.0% | ValLoss=0.7711 | ValAcc=75.3% | AvgCost=1.479 | FC2-Rate=0.0945 (max=0.005) | lambda=1.0
+[Epoch   6/1500 | Cost-Step 0] Loss=0.7534 | Acc=74.3% | ValLoss=0.7677 | ValAcc=75.0% | AvgCost=1.487 | FC2-Rate=0.0945 (max=0.005) | lambda=1.0
+[Epoch   7/1500 | Cost-Step 0] Loss=0.7998 | Acc=74.1% | ValLoss=0.7646 | ValAcc=75.0% | AvgCost=1.464 | FC2-Rate=0.0906 (max=0.005) | lambda=1.0
+[Epoch   8/1500 | Cost-Step 0] Loss=0.7417 | Acc=74.2% | ValLoss=0.7621 | ValAcc=75.3% | AvgCost=1.433 | FC2-Rate=0.0866 (max=0.005) | lambda=1.0
+[Epoch   9/1500 | Cost-Step 0] Loss=0.7193 | Acc=75.4% | ValLoss=0.7599 | ValAcc=75.0% | AvgCost=1.441 | FC2-Rate=0.0866 (max=0.005) | lambda=1.0
+[Epoch  10/1500 | Cost-Step 0] Loss=0.7679 | Acc=73.3% | ValLoss=0.7579 | ValAcc=74.7% | AvgCost=1.448 | FC2-Rate=0.0866 (max=0.005) | lambda=1.0
+[Epoch  11/1500 | Cost-Step 0] Loss=0.7410 | Acc=74.3% | ValLoss=0.7564 | ValAcc=74.5% | AvgCost=1.456 | FC2-Rate=0.0866 (max=0.005) | lambda=1.0
+[Epoch  12/1500 | Cost-Step 0] Loss=0.7769 | Acc=73.5% | ValLoss=0.7553 | ValAcc=74.2% | AvgCost=1.464 | FC2-Rate=0.0866 (max=0.005) | lambda=1.0
+[Epoch  13/1500 | Cost-Step 0] Loss=0.7560 | Acc=73.2% | ValLoss=0.7541 | ValAcc=73.7% | AvgCost=1.479 | FC2-Rate=0.0866 (max=0.005) | lambda=1.0
+[Epoch  14/1500 | Cost-Step 0] Loss=0.7625 | Acc=72.8% | ValLoss=0.7531 | ValAcc=73.5% | AvgCost=1.487 | FC2-Rate=0.0866 (max=0.005) | lambda=1.0
+[Epoch  15/1500 | Cost-Step 0] Loss=0.7485 | Acc=74.7% | ValLoss=0.7523 | ValAcc=72.9% | AvgCost=1.503 | FC2-Rate=0.0866 (max=0.005) | lambda=1.0
+[Epoch  16/1500 | Cost-Step 0] Loss=0.7598 | Acc=74.2% | ValLoss=0.7517 | ValAcc=73.2% | AvgCost=1.497 | FC2-Rate=0.0866 (max=0.005) | lambda=1.0
+[Epoch  17/1500 | Cost-Step 0] Loss=0.7337 | Acc=73.5% | ValLoss=0.7512 | ValAcc=73.7% | AvgCost=1.461 | FC2-Rate=0.0827 (max=0.005) | lambda=1.0
+[Epoch  18/1500 | Cost-Step 0] Loss=0.7423 | Acc=73.5% | ValLoss=0.7509 | ValAcc=74.0% | AvgCost=1.430 | FC2-Rate=0.0787 (max=0.005) | lambda=1.0
+[Epoch  19/1500 | Cost-Step 0] Loss=0.7221 | Acc=74.6% | ValLoss=0.7504 | ValAcc=74.0% | AvgCost=1.430 | FC2-Rate=0.0787 (max=0.005) | lambda=1.0
+[Epoch  20/1500 | Cost-Step 0] Loss=0.7608 | Acc=73.1% | ValLoss=0.7501 | ValAcc=74.2% | AvgCost=1.399 | FC2-Rate=0.0748 (max=0.005) | lambda=1.0
+[Epoch  21/1500 | Cost-Step 0] Loss=0.7395 | Acc=73.2% | ValLoss=0.7497 | ValAcc=74.2% | AvgCost=1.399 | FC2-Rate=0.0748 (max=0.005) | lambda=1.0
+[Epoch  22/1500 | Cost-Step 0] Loss=0.7433 | Acc=73.1% | ValLoss=0.7493 | ValAcc=74.7% | AvgCost=1.353 | FC2-Rate=0.0709 (max=0.005) | lambda=1.0
+[Epoch  23/1500 | Cost-Step 0] Loss=0.7371 | Acc=72.7% | ValLoss=0.7490 | ValAcc=74.7% | AvgCost=1.353 | FC2-Rate=0.0709 (max=0.005) | lambda=1.0
+[Epoch  24/1500 | Cost-Step 0] Loss=0.7290 | Acc=73.7% | ValLoss=0.7485 | ValAcc=75.0% | AvgCost=1.348 | FC2-Rate=0.0709 (max=0.005) | lambda=1.0
+[Epoch  25/1500 | Cost-Step 0] Loss=0.7169 | Acc=74.4% | ValLoss=0.7483 | ValAcc=75.0% | AvgCost=1.348 | FC2-Rate=0.0709 (max=0.005) | lambda=1.0
+[Epoch  26/1500 | Cost-Step 0] Loss=0.7346 | Acc=74.1% | ValLoss=0.7480 | ValAcc=75.0% | AvgCost=1.348 | FC2-Rate=0.0709 (max=0.005) | lambda=1.0
+[Epoch  27/1500 | Cost-Step 0] Loss=0.7275 | Acc=73.3% | ValLoss=0.7477 | ValAcc=75.0% | AvgCost=1.348 | FC2-Rate=0.0709 (max=0.005) | lambda=1.0
+[Epoch  28/1500 | Cost-Step 0] Loss=0.7388 | Acc=73.3% | ValLoss=0.7475 | ValAcc=75.0% | AvgCost=1.348 | FC2-Rate=0.0709 (max=0.005) | lambda=1.0
+[Epoch  29/1500 | Cost-Step 0] Loss=0.7561 | Acc=74.1% | ValLoss=0.7472 | ValAcc=75.0% | AvgCost=1.322 | FC2-Rate=0.0669 (max=0.005) | lambda=1.0
+[Epoch  30/1500 | Cost-Step 0] Loss=0.7145 | Acc=72.9% | ValLoss=0.7469 | ValAcc=75.0% | AvgCost=1.322 | FC2-Rate=0.0669 (max=0.005) | lambda=1.0
+[Epoch  31/1500 | Cost-Step 0] Loss=0.7307 | Acc=73.7% | ValLoss=0.7465 | ValAcc=75.0% | AvgCost=1.322 | FC2-Rate=0.0669 (max=0.005) | lambda=1.0
+[Epoch  32/1500 | Cost-Step 0] Loss=0.7247 | Acc=74.1% | ValLoss=0.7464 | ValAcc=74.7% | AvgCost=1.330 | FC2-Rate=0.0669 (max=0.005) | lambda=1.0
+[Epoch  33/1500 | Cost-Step 0] Loss=0.7197 | Acc=73.5% | ValLoss=0.7464 | ValAcc=74.7% | AvgCost=1.330 | FC2-Rate=0.0669 (max=0.005) | lambda=1.0
+[Epoch  34/1500 | Cost-Step 0] Loss=0.7432 | Acc=74.1% | ValLoss=0.7461 | ValAcc=75.0% | AvgCost=1.322 | FC2-Rate=0.0669 (max=0.005) | lambda=1.0
+[Epoch  35/1500 | Cost-Step 0] Loss=0.7364 | Acc=73.5% | ValLoss=0.7460 | ValAcc=74.7% | AvgCost=1.330 | FC2-Rate=0.0669 (max=0.005) | lambda=1.0
+[Epoch  36/1500 | Cost-Step 0] Loss=0.7600 | Acc=73.3% | ValLoss=0.7459 | ValAcc=74.7% | AvgCost=1.330 | FC2-Rate=0.0669 (max=0.005) | lambda=1.0
+[Epoch  37/1500 | Cost-Step 0] Loss=0.7261 | Acc=72.1% | ValLoss=0.7458 | ValAcc=74.7% | AvgCost=1.330 | FC2-Rate=0.0669 (max=0.005) | lambda=1.0
+[Epoch  38/1500 | Cost-Step 0] Loss=0.7419 | Acc=72.8% | ValLoss=0.7457 | ValAcc=74.7% | AvgCost=1.330 | FC2-Rate=0.0669 (max=0.005) | lambda=1.0
+[Epoch  39/1500 | Cost-Step 0] Loss=0.7130 | Acc=75.0% | ValLoss=0.7455 | ValAcc=74.5% | AvgCost=1.338 | FC2-Rate=0.0669 (max=0.005) | lambda=1.0
+[Epoch  40/1500 | Cost-Step 0] Loss=0.7183 | Acc=74.1% | ValLoss=0.7453 | ValAcc=74.5% | AvgCost=1.338 | FC2-Rate=0.0669 (max=0.005) | lambda=1.0
+[Epoch  41/1500 | Cost-Step 0] Loss=0.7345 | Acc=73.0% | ValLoss=0.7450 | ValAcc=74.5% | AvgCost=1.338 | FC2-Rate=0.0669 (max=0.005) | lambda=1.0
+[Epoch  42/1500 | Cost-Step 0] Loss=0.7123 | Acc=73.2% | ValLoss=0.7447 | ValAcc=74.5% | AvgCost=1.338 | FC2-Rate=0.0669 (max=0.005) | lambda=1.0
+[Epoch  43/1500 | Cost-Step 0] Loss=0.7200 | Acc=72.9% | ValLoss=0.7445 | ValAcc=74.5% | AvgCost=1.338 | FC2-Rate=0.0669 (max=0.005) | lambda=1.0
+[Epoch  44/1500 | Cost-Step 0] Loss=0.7319 | Acc=73.3% | ValLoss=0.7443 | ValAcc=74.5% | AvgCost=1.338 | FC2-Rate=0.0669 (max=0.005) | lambda=1.0
+[Epoch  45/1500 | Cost-Step 0] Loss=0.7218 | Acc=72.8% | ValLoss=0.7441 | ValAcc=74.5% | AvgCost=1.338 | FC2-Rate=0.0669 (max=0.005) | lambda=1.0
+[Epoch  46/1500 | Cost-Step 0] Loss=0.7392 | Acc=73.1% | ValLoss=0.7437 | ValAcc=74.5% | AvgCost=1.338 | FC2-Rate=0.0669 (max=0.005) | lambda=1.0
+[Epoch  47/1500 | Cost-Step 0] Loss=0.7216 | Acc=73.1% | ValLoss=0.7436 | ValAcc=74.5% | AvgCost=1.338 | FC2-Rate=0.0669 (max=0.005) | lambda=1.0
+[Epoch  48/1500 | Cost-Step 0] Loss=0.7333 | Acc=72.5% | ValLoss=0.7436 | ValAcc=74.5% | AvgCost=1.338 | FC2-Rate=0.0669 (max=0.005) | lambda=1.0
+[Epoch  49/1500 | Cost-Step 0] Loss=0.7088 | Acc=73.4% | ValLoss=0.7432 | ValAcc=74.5% | AvgCost=1.338 | FC2-Rate=0.0669 (max=0.005) | lambda=1.0
+  -> Stagnation at cost level (no FC2-rate improvement for 20 epochs, best FC2=0.0669). Increasing lambda 1.0 -> 2.0
+  Val CM:
+[[ 49   2   6]
+ [  9 177  11]
+ [ 24  47  63]]
+[Epoch  50/1500 | Cost-Step 1] Loss=0.8330 | Acc=74.1% | ValLoss=0.8692 | ValAcc=74.5% | AvgCost=1.338 | FC2-Rate=0.0669 (max=0.005) | lambda=2.0
+[Epoch  51/1500 | Cost-Step 1] Loss=0.8574 | Acc=71.6% | ValLoss=0.8669 | ValAcc=74.2% | AvgCost=1.353 | FC2-Rate=0.0669 (max=0.005) | lambda=2.0
+[Epoch  52/1500 | Cost-Step 1] Loss=0.8697 | Acc=72.6% | ValLoss=0.8650 | ValAcc=74.2% | AvgCost=1.338 | FC2-Rate=0.0630 (max=0.005) | lambda=2.0
+[Epoch  53/1500 | Cost-Step 1] Loss=0.8525 | Acc=74.1% | ValLoss=0.8638 | ValAcc=74.2% | AvgCost=1.338 | FC2-Rate=0.0630 (max=0.005) | lambda=2.0
+[Epoch  54/1500 | Cost-Step 1] Loss=0.8192 | Acc=73.9% | ValLoss=0.8626 | ValAcc=74.0% | AvgCost=1.353 | FC2-Rate=0.0630 (max=0.005) | lambda=2.0
+[Epoch  55/1500 | Cost-Step 1] Loss=0.8337 | Acc=73.4% | ValLoss=0.8615 | ValAcc=73.7% | AvgCost=1.361 | FC2-Rate=0.0630 (max=0.005) | lambda=2.0
+[Epoch  56/1500 | Cost-Step 1] Loss=0.8389 | Acc=72.6% | ValLoss=0.8606 | ValAcc=73.7% | AvgCost=1.361 | FC2-Rate=0.0630 (max=0.005) | lambda=2.0
+[Epoch  57/1500 | Cost-Step 1] Loss=0.8403 | Acc=71.7% | ValLoss=0.8595 | ValAcc=73.7% | AvgCost=1.361 | FC2-Rate=0.0630 (max=0.005) | lambda=2.0
+[Epoch  58/1500 | Cost-Step 1] Loss=0.8306 | Acc=71.8% | ValLoss=0.8587 | ValAcc=72.9% | AvgCost=1.384 | FC2-Rate=0.0630 (max=0.005) | lambda=2.0
+[Epoch  59/1500 | Cost-Step 1] Loss=0.8396 | Acc=72.3% | ValLoss=0.8579 | ValAcc=72.9% | AvgCost=1.384 | FC2-Rate=0.0630 (max=0.005) | lambda=2.0
+[Epoch  60/1500 | Cost-Step 1] Loss=0.8803 | Acc=72.8% | ValLoss=0.8576 | ValAcc=72.9% | AvgCost=1.384 | FC2-Rate=0.0630 (max=0.005) | lambda=2.0
+[Epoch  61/1500 | Cost-Step 1] Loss=0.8134 | Acc=72.6% | ValLoss=0.8572 | ValAcc=72.7% | AvgCost=1.392 | FC2-Rate=0.0630 (max=0.005) | lambda=2.0
+[Epoch  62/1500 | Cost-Step 1] Loss=0.8590 | Acc=70.8% | ValLoss=0.8567 | ValAcc=72.4% | AvgCost=1.399 | FC2-Rate=0.0630 (max=0.005) | lambda=2.0
+[Epoch  63/1500 | Cost-Step 1] Loss=0.8286 | Acc=71.6% | ValLoss=0.8562 | ValAcc=72.4% | AvgCost=1.399 | FC2-Rate=0.0630 (max=0.005) | lambda=2.0
+[Epoch  64/1500 | Cost-Step 1] Loss=0.8451 | Acc=71.8% | ValLoss=0.8560 | ValAcc=72.4% | AvgCost=1.399 | FC2-Rate=0.0630 (max=0.005) | lambda=2.0
+[Epoch  65/1500 | Cost-Step 1] Loss=0.8219 | Acc=72.3% | ValLoss=0.8555 | ValAcc=72.4% | AvgCost=1.399 | FC2-Rate=0.0630 (max=0.005) | lambda=2.0
+[Epoch  66/1500 | Cost-Step 1] Loss=0.8306 | Acc=71.7% | ValLoss=0.8551 | ValAcc=72.4% | AvgCost=1.399 | FC2-Rate=0.0630 (max=0.005) | lambda=2.0
+[Epoch  67/1500 | Cost-Step 1] Loss=0.8313 | Acc=71.6% | ValLoss=0.8547 | ValAcc=72.2% | AvgCost=1.407 | FC2-Rate=0.0630 (max=0.005) | lambda=2.0
+[Epoch  68/1500 | Cost-Step 1] Loss=0.8088 | Acc=72.9% | ValLoss=0.8543 | ValAcc=72.4% | AvgCost=1.399 | FC2-Rate=0.0630 (max=0.005) | lambda=2.0
+[Epoch  69/1500 | Cost-Step 1] Loss=0.8214 | Acc=72.0% | ValLoss=0.8540 | ValAcc=72.4% | AvgCost=1.399 | FC2-Rate=0.0630 (max=0.005) | lambda=2.0
+[Epoch  70/1500 | Cost-Step 1] Loss=0.8674 | Acc=69.7% | ValLoss=0.8536 | ValAcc=72.4% | AvgCost=1.399 | FC2-Rate=0.0630 (max=0.005) | lambda=2.0
+[Epoch  71/1500 | Cost-Step 1] Loss=0.8387 | Acc=73.1% | ValLoss=0.8532 | ValAcc=72.4% | AvgCost=1.399 | FC2-Rate=0.0630 (max=0.005) | lambda=2.0
+[Epoch  72/1500 | Cost-Step 1] Loss=0.8311 | Acc=71.3% | ValLoss=0.8530 | ValAcc=72.2% | AvgCost=1.407 | FC2-Rate=0.0630 (max=0.005) | lambda=2.0
+  -> Stagnation at cost level (no FC2-rate improvement for 20 epochs, best FC2=0.0630). Increasing lambda 2.0 -> 3.0
+  Val CM:
+[[ 49   2   6]
+ [  9 178  10]
+ [ 27  54  53]]
+[Epoch  73/1500 | Cost-Step 2] Loss=0.9615 | Acc=69.5% | ValLoss=0.9515 | ValAcc=71.9% | AvgCost=1.397 | FC2-Rate=0.0591 (max=0.005) | lambda=3.0
+[Epoch  74/1500 | Cost-Step 2] Loss=0.9271 | Acc=71.5% | ValLoss=0.9499 | ValAcc=71.9% | AvgCost=1.371 | FC2-Rate=0.0551 (max=0.005) | lambda=3.0
+[Epoch  75/1500 | Cost-Step 2] Loss=0.9309 | Acc=71.0% | ValLoss=0.9477 | ValAcc=72.2% | AvgCost=1.340 | FC2-Rate=0.0512 (max=0.005) | lambda=3.0
+[Epoch  76/1500 | Cost-Step 2] Loss=0.9010 | Acc=72.1% | ValLoss=0.9462 | ValAcc=72.2% | AvgCost=1.314 | FC2-Rate=0.0472 (max=0.005) | lambda=3.0
+[Epoch  77/1500 | Cost-Step 2] Loss=0.8921 | Acc=72.1% | ValLoss=0.9450 | ValAcc=71.9% | AvgCost=1.322 | FC2-Rate=0.0472 (max=0.005) | lambda=3.0
+[Epoch  78/1500 | Cost-Step 2] Loss=0.9669 | Acc=70.4% | ValLoss=0.9437 | ValAcc=71.6% | AvgCost=1.314 | FC2-Rate=0.0433 (max=0.005) | lambda=3.0
+[Epoch  79/1500 | Cost-Step 2] Loss=0.9214 | Acc=71.1% | ValLoss=0.9426 | ValAcc=71.6% | AvgCost=1.314 | FC2-Rate=0.0433 (max=0.005) | lambda=3.0
+[Epoch  80/1500 | Cost-Step 2] Loss=0.9168 | Acc=71.0% | ValLoss=0.9415 | ValAcc=71.6% | AvgCost=1.289 | FC2-Rate=0.0394 (max=0.005) | lambda=3.0
+[Epoch  81/1500 | Cost-Step 2] Loss=0.9402 | Acc=71.1% | ValLoss=0.9407 | ValAcc=71.6% | AvgCost=1.289 | FC2-Rate=0.0394 (max=0.005) | lambda=3.0
+[Epoch  82/1500 | Cost-Step 2] Loss=0.9243 | Acc=70.5% | ValLoss=0.9397 | ValAcc=71.6% | AvgCost=1.289 | FC2-Rate=0.0394 (max=0.005) | lambda=3.0
+[Epoch  83/1500 | Cost-Step 2] Loss=0.9344 | Acc=69.2% | ValLoss=0.9388 | ValAcc=71.6% | AvgCost=1.289 | FC2-Rate=0.0394 (max=0.005) | lambda=3.0
+[Epoch  84/1500 | Cost-Step 2] Loss=0.9248 | Acc=69.4% | ValLoss=0.9382 | ValAcc=71.6% | AvgCost=1.289 | FC2-Rate=0.0394 (max=0.005) | lambda=3.0
+[Epoch  85/1500 | Cost-Step 2] Loss=0.9278 | Acc=69.8% | ValLoss=0.9376 | ValAcc=71.6% | AvgCost=1.289 | FC2-Rate=0.0394 (max=0.005) | lambda=3.0
+[Epoch  86/1500 | Cost-Step 2] Loss=0.9089 | Acc=71.5% | ValLoss=0.9370 | ValAcc=71.6% | AvgCost=1.289 | FC2-Rate=0.0394 (max=0.005) | lambda=3.0
+[Epoch  87/1500 | Cost-Step 2] Loss=0.9247 | Acc=70.5% | ValLoss=0.9366 | ValAcc=71.6% | AvgCost=1.289 | FC2-Rate=0.0394 (max=0.005) | lambda=3.0
+[Epoch  88/1500 | Cost-Step 2] Loss=0.9373 | Acc=70.3% | ValLoss=0.9359 | ValAcc=71.6% | AvgCost=1.263 | FC2-Rate=0.0354 (max=0.005) | lambda=3.0
+[Epoch  89/1500 | Cost-Step 2] Loss=0.9491 | Acc=71.0% | ValLoss=0.9356 | ValAcc=71.4% | AvgCost=1.271 | FC2-Rate=0.0354 (max=0.005) | lambda=3.0
+[Epoch  90/1500 | Cost-Step 2] Loss=0.9301 | Acc=69.7% | ValLoss=0.9352 | ValAcc=71.4% | AvgCost=1.271 | FC2-Rate=0.0354 (max=0.005) | lambda=3.0
+[Epoch  91/1500 | Cost-Step 2] Loss=0.9257 | Acc=71.8% | ValLoss=0.9350 | ValAcc=71.6% | AvgCost=1.237 | FC2-Rate=0.0315 (max=0.005) | lambda=3.0
+[Epoch  92/1500 | Cost-Step 2] Loss=0.9339 | Acc=69.2% | ValLoss=0.9345 | ValAcc=71.6% | AvgCost=1.237 | FC2-Rate=0.0315 (max=0.005) | lambda=3.0
+[Epoch  93/1500 | Cost-Step 2] Loss=0.8866 | Acc=69.9% | ValLoss=0.9341 | ValAcc=71.4% | AvgCost=1.253 | FC2-Rate=0.0315 (max=0.005) | lambda=3.0
+[Epoch  94/1500 | Cost-Step 2] Loss=0.9227 | Acc=70.3% | ValLoss=0.9339 | ValAcc=71.6% | AvgCost=1.237 | FC2-Rate=0.0315 (max=0.005) | lambda=3.0
+[Epoch  95/1500 | Cost-Step 2] Loss=0.9237 | Acc=70.8% | ValLoss=0.9333 | ValAcc=71.4% | AvgCost=1.253 | FC2-Rate=0.0315 (max=0.005) | lambda=3.0
+[Epoch  96/1500 | Cost-Step 2] Loss=0.9414 | Acc=70.4% | ValLoss=0.9329 | ValAcc=71.4% | AvgCost=1.253 | FC2-Rate=0.0315 (max=0.005) | lambda=3.0
+[Epoch  97/1500 | Cost-Step 2] Loss=0.9037 | Acc=70.4% | ValLoss=0.9326 | ValAcc=71.6% | AvgCost=1.237 | FC2-Rate=0.0315 (max=0.005) | lambda=3.0
+[Epoch  98/1500 | Cost-Step 2] Loss=0.9139 | Acc=69.3% | ValLoss=0.9322 | ValAcc=71.6% | AvgCost=1.237 | FC2-Rate=0.0315 (max=0.005) | lambda=3.0
+[Epoch  99/1500 | Cost-Step 2] Loss=0.9532 | Acc=70.4% | ValLoss=0.9319 | ValAcc=71.6% | AvgCost=1.237 | FC2-Rate=0.0315 (max=0.005) | lambda=3.0
+[Epoch 100/1500 | Cost-Step 2] Loss=0.9488 | Acc=69.1% | ValLoss=0.9313 | ValAcc=71.4% | AvgCost=1.253 | FC2-Rate=0.0315 (max=0.005) | lambda=3.0
+[Epoch 101/1500 | Cost-Step 2] Loss=0.9189 | Acc=70.3% | ValLoss=0.9309 | ValAcc=71.4% | AvgCost=1.253 | FC2-Rate=0.0315 (max=0.005) | lambda=3.0
+[Epoch 102/1500 | Cost-Step 2] Loss=0.8820 | Acc=71.3% | ValLoss=0.9306 | ValAcc=71.4% | AvgCost=1.253 | FC2-Rate=0.0315 (max=0.005) | lambda=3.0
+[Epoch 103/1500 | Cost-Step 2] Loss=0.9267 | Acc=68.2% | ValLoss=0.9301 | ValAcc=71.4% | AvgCost=1.253 | FC2-Rate=0.0315 (max=0.005) | lambda=3.0
+[Epoch 104/1500 | Cost-Step 2] Loss=0.9013 | Acc=70.8% | ValLoss=0.9296 | ValAcc=71.1% | AvgCost=1.260 | FC2-Rate=0.0315 (max=0.005) | lambda=3.0
+[Epoch 105/1500 | Cost-Step 2] Loss=0.9196 | Acc=69.8% | ValLoss=0.9289 | ValAcc=71.4% | AvgCost=1.253 | FC2-Rate=0.0315 (max=0.005) | lambda=3.0
+[Epoch 106/1500 | Cost-Step 2] Loss=0.9044 | Acc=69.6% | ValLoss=0.9286 | ValAcc=71.4% | AvgCost=1.253 | FC2-Rate=0.0315 (max=0.005) | lambda=3.0
+[Epoch 107/1500 | Cost-Step 2] Loss=0.9264 | Acc=70.3% | ValLoss=0.9284 | ValAcc=71.4% | AvgCost=1.253 | FC2-Rate=0.0315 (max=0.005) | lambda=3.0
+[Epoch 108/1500 | Cost-Step 2] Loss=0.9065 | Acc=70.9% | ValLoss=0.9280 | ValAcc=71.1% | AvgCost=1.260 | FC2-Rate=0.0315 (max=0.005) | lambda=3.0
+[Epoch 109/1500 | Cost-Step 2] Loss=0.9294 | Acc=70.8% | ValLoss=0.9277 | ValAcc=71.1% | AvgCost=1.260 | FC2-Rate=0.0315 (max=0.005) | lambda=3.0
+[Epoch 110/1500 | Cost-Step 2] Loss=0.9193 | Acc=69.3% | ValLoss=0.9274 | ValAcc=71.1% | AvgCost=1.235 | FC2-Rate=0.0276 (max=0.005) | lambda=3.0
+[Epoch 111/1500 | Cost-Step 2] Loss=0.8943 | Acc=69.7% | ValLoss=0.9269 | ValAcc=71.4% | AvgCost=1.227 | FC2-Rate=0.0276 (max=0.005) | lambda=3.0
+[Epoch 112/1500 | Cost-Step 2] Loss=0.9085 | Acc=69.1% | ValLoss=0.9265 | ValAcc=71.4% | AvgCost=1.227 | FC2-Rate=0.0276 (max=0.005) | lambda=3.0
+[Epoch 113/1500 | Cost-Step 2] Loss=0.8956 | Acc=70.9% | ValLoss=0.9263 | ValAcc=71.4% | AvgCost=1.227 | FC2-Rate=0.0276 (max=0.005) | lambda=3.0
+[Epoch 114/1500 | Cost-Step 2] Loss=0.8964 | Acc=70.7% | ValLoss=0.9260 | ValAcc=71.4% | AvgCost=1.227 | FC2-Rate=0.0276 (max=0.005) | lambda=3.0
+[Epoch 115/1500 | Cost-Step 2] Loss=0.9206 | Acc=69.7% | ValLoss=0.9256 | ValAcc=71.1% | AvgCost=1.235 | FC2-Rate=0.0276 (max=0.005) | lambda=3.0
+[Epoch 116/1500 | Cost-Step 2] Loss=0.9068 | Acc=70.9% | ValLoss=0.9254 | ValAcc=71.1% | AvgCost=1.235 | FC2-Rate=0.0276 (max=0.005) | lambda=3.0
+[Epoch 117/1500 | Cost-Step 2] Loss=0.8956 | Acc=70.2% | ValLoss=0.9249 | ValAcc=71.1% | AvgCost=1.235 | FC2-Rate=0.0276 (max=0.005) | lambda=3.0
+[Epoch 118/1500 | Cost-Step 2] Loss=0.8982 | Acc=70.1% | ValLoss=0.9245 | ValAcc=71.1% | AvgCost=1.235 | FC2-Rate=0.0276 (max=0.005) | lambda=3.0
+[Epoch 119/1500 | Cost-Step 2] Loss=0.8888 | Acc=70.6% | ValLoss=0.9242 | ValAcc=71.1% | AvgCost=1.235 | FC2-Rate=0.0276 (max=0.005) | lambda=3.0
+[Epoch 120/1500 | Cost-Step 2] Loss=0.8920 | Acc=71.0% | ValLoss=0.9238 | ValAcc=71.1% | AvgCost=1.235 | FC2-Rate=0.0276 (max=0.005) | lambda=3.0
+[Epoch 121/1500 | Cost-Step 2] Loss=0.8998 | Acc=70.2% | ValLoss=0.9234 | ValAcc=71.1% | AvgCost=1.235 | FC2-Rate=0.0276 (max=0.005) | lambda=3.0
+[Epoch 122/1500 | Cost-Step 2] Loss=0.8939 | Acc=70.8% | ValLoss=0.9231 | ValAcc=71.1% | AvgCost=1.235 | FC2-Rate=0.0276 (max=0.005) | lambda=3.0
+[Epoch 123/1500 | Cost-Step 2] Loss=0.8961 | Acc=69.9% | ValLoss=0.9230 | ValAcc=71.1% | AvgCost=1.235 | FC2-Rate=0.0276 (max=0.005) | lambda=3.0
+[Epoch 124/1500 | Cost-Step 2] Loss=0.9170 | Acc=70.1% | ValLoss=0.9225 | ValAcc=71.1% | AvgCost=1.235 | FC2-Rate=0.0276 (max=0.005) | lambda=3.0
+[Epoch 125/1500 | Cost-Step 2] Loss=0.9225 | Acc=70.7% | ValLoss=0.9223 | ValAcc=70.9% | AvgCost=1.242 | FC2-Rate=0.0276 (max=0.005) | lambda=3.0
+[Epoch 126/1500 | Cost-Step 2] Loss=0.9105 | Acc=69.8% | ValLoss=0.9221 | ValAcc=70.9% | AvgCost=1.242 | FC2-Rate=0.0276 (max=0.005) | lambda=3.0
+[Epoch 127/1500 | Cost-Step 2] Loss=0.9010 | Acc=69.6% | ValLoss=0.9216 | ValAcc=71.4% | AvgCost=1.227 | FC2-Rate=0.0276 (max=0.005) | lambda=3.0
+[Epoch 128/1500 | Cost-Step 2] Loss=0.9058 | Acc=69.8% | ValLoss=0.9215 | ValAcc=71.4% | AvgCost=1.227 | FC2-Rate=0.0276 (max=0.005) | lambda=3.0
+[Epoch 129/1500 | Cost-Step 2] Loss=0.8703 | Acc=72.1% | ValLoss=0.9214 | ValAcc=71.4% | AvgCost=1.227 | FC2-Rate=0.0276 (max=0.005) | lambda=3.0
+[Epoch 130/1500 | Cost-Step 2] Loss=0.9108 | Acc=70.7% | ValLoss=0.9211 | ValAcc=71.4% | AvgCost=1.227 | FC2-Rate=0.0276 (max=0.005) | lambda=3.0
+  -> Stagnation at cost level (no FC2-rate improvement for 20 epochs, best FC2=0.0276). Increasing lambda 3.0 -> 4.0
+  Val CM:
+[[ 51   4   2]
+ [ 12 180   5]
+ [ 30  58  46]]
+[Epoch 131/1500 | Cost-Step 3] Loss=0.9986 | Acc=69.7% | ValLoss=0.9977 | ValAcc=70.9% | AvgCost=1.242 | FC2-Rate=0.0276 (max=0.005) | lambda=4.0
+[Epoch 132/1500 | Cost-Step 3] Loss=0.9902 | Acc=71.4% | ValLoss=0.9965 | ValAcc=70.9% | AvgCost=1.242 | FC2-Rate=0.0276 (max=0.005) | lambda=4.0
+[Epoch 133/1500 | Cost-Step 3] Loss=1.0084 | Acc=69.4% | ValLoss=0.9952 | ValAcc=70.6% | AvgCost=1.250 | FC2-Rate=0.0276 (max=0.005) | lambda=4.0
+[Epoch 134/1500 | Cost-Step 3] Loss=0.9979 | Acc=69.4% | ValLoss=0.9941 | ValAcc=70.1% | AvgCost=1.265 | FC2-Rate=0.0276 (max=0.005) | lambda=4.0
+[Epoch 135/1500 | Cost-Step 3] Loss=0.9752 | Acc=70.3% | ValLoss=0.9930 | ValAcc=70.1% | AvgCost=1.265 | FC2-Rate=0.0276 (max=0.005) | lambda=4.0
+[Epoch 136/1500 | Cost-Step 3] Loss=1.0077 | Acc=68.8% | ValLoss=0.9924 | ValAcc=70.1% | AvgCost=1.265 | FC2-Rate=0.0276 (max=0.005) | lambda=4.0
+[Epoch 137/1500 | Cost-Step 3] Loss=1.0082 | Acc=69.0% | ValLoss=0.9916 | ValAcc=70.1% | AvgCost=1.265 | FC2-Rate=0.0276 (max=0.005) | lambda=4.0
+[Epoch 138/1500 | Cost-Step 3] Loss=0.9951 | Acc=68.2% | ValLoss=0.9910 | ValAcc=70.1% | AvgCost=1.265 | FC2-Rate=0.0276 (max=0.005) | lambda=4.0
+[Epoch 139/1500 | Cost-Step 3] Loss=0.9238 | Acc=70.9% | ValLoss=0.9901 | ValAcc=70.1% | AvgCost=1.265 | FC2-Rate=0.0276 (max=0.005) | lambda=4.0
+[Epoch 140/1500 | Cost-Step 3] Loss=0.9578 | Acc=70.4% | ValLoss=0.9893 | ValAcc=70.1% | AvgCost=1.265 | FC2-Rate=0.0276 (max=0.005) | lambda=4.0
+[Epoch 141/1500 | Cost-Step 3] Loss=0.9954 | Acc=68.7% | ValLoss=0.9889 | ValAcc=70.1% | AvgCost=1.265 | FC2-Rate=0.0276 (max=0.005) | lambda=4.0
+[Epoch 142/1500 | Cost-Step 3] Loss=1.0227 | Acc=69.0% | ValLoss=0.9880 | ValAcc=70.1% | AvgCost=1.265 | FC2-Rate=0.0276 (max=0.005) | lambda=4.0
+[Epoch 143/1500 | Cost-Step 3] Loss=0.9667 | Acc=69.8% | ValLoss=0.9872 | ValAcc=69.8% | AvgCost=1.273 | FC2-Rate=0.0276 (max=0.005) | lambda=4.0
+[Epoch 144/1500 | Cost-Step 3] Loss=0.9717 | Acc=68.9% | ValLoss=0.9865 | ValAcc=69.8% | AvgCost=1.273 | FC2-Rate=0.0276 (max=0.005) | lambda=4.0
+[Epoch 145/1500 | Cost-Step 3] Loss=0.9698 | Acc=69.4% | ValLoss=0.9860 | ValAcc=69.8% | AvgCost=1.273 | FC2-Rate=0.0276 (max=0.005) | lambda=4.0
+[Epoch 146/1500 | Cost-Step 3] Loss=0.9493 | Acc=70.0% | ValLoss=0.9854 | ValAcc=69.8% | AvgCost=1.273 | FC2-Rate=0.0276 (max=0.005) | lambda=4.0
+[Epoch 147/1500 | Cost-Step 3] Loss=0.9780 | Acc=68.3% | ValLoss=0.9851 | ValAcc=69.8% | AvgCost=1.273 | FC2-Rate=0.0276 (max=0.005) | lambda=4.0
+[Epoch 148/1500 | Cost-Step 3] Loss=0.9777 | Acc=70.6% | ValLoss=0.9846 | ValAcc=69.8% | AvgCost=1.273 | FC2-Rate=0.0276 (max=0.005) | lambda=4.0
+[Epoch 149/1500 | Cost-Step 3] Loss=0.9630 | Acc=69.5% | ValLoss=0.9843 | ValAcc=69.8% | AvgCost=1.273 | FC2-Rate=0.0276 (max=0.005) | lambda=4.0
+[Epoch 150/1500 | Cost-Step 3] Loss=0.9976 | Acc=69.3% | ValLoss=0.9839 | ValAcc=69.8% | AvgCost=1.273 | FC2-Rate=0.0276 (max=0.005) | lambda=4.0
+[Epoch 151/1500 | Cost-Step 3] Loss=0.9526 | Acc=69.8% | ValLoss=0.9833 | ValAcc=69.8% | AvgCost=1.273 | FC2-Rate=0.0276 (max=0.005) | lambda=4.0
+  -> Stagnation at cost level (no FC2-rate improvement for 20 epochs, best FC2=0.0276). Increasing lambda 4.0 -> 5.0
+  Val CM:
+[[ 51   4   2]
+ [ 12 180   5]
+ [ 30  64  40]]
+[Epoch 152/1500 | Cost-Step 4] Loss=1.0640 | Acc=69.8% | ValLoss=1.0487 | ValAcc=69.8% | AvgCost=1.247 | FC2-Rate=0.0236 (max=0.005) | lambda=5.0
+[Epoch 153/1500 | Cost-Step 4] Loss=1.0256 | Acc=69.7% | ValLoss=1.0474 | ValAcc=69.6% | AvgCost=1.255 | FC2-Rate=0.0236 (max=0.005) | lambda=5.0
+[Epoch 154/1500 | Cost-Step 4] Loss=1.0566 | Acc=68.1% | ValLoss=1.0462 | ValAcc=69.6% | AvgCost=1.255 | FC2-Rate=0.0236 (max=0.005) | lambda=5.0
+[Epoch 155/1500 | Cost-Step 4] Loss=1.0223 | Acc=69.5% | ValLoss=1.0456 | ValAcc=69.6% | AvgCost=1.255 | FC2-Rate=0.0236 (max=0.005) | lambda=5.0
+[Epoch 156/1500 | Cost-Step 4] Loss=1.0169 | Acc=69.4% | ValLoss=1.0445 | ValAcc=69.3% | AvgCost=1.263 | FC2-Rate=0.0236 (max=0.005) | lambda=5.0
+[Epoch 157/1500 | Cost-Step 4] Loss=1.0113 | Acc=69.1% | ValLoss=1.0439 | ValAcc=69.3% | AvgCost=1.263 | FC2-Rate=0.0236 (max=0.005) | lambda=5.0
+[Epoch 158/1500 | Cost-Step 4] Loss=1.0664 | Acc=68.2% | ValLoss=1.0427 | ValAcc=69.1% | AvgCost=1.271 | FC2-Rate=0.0236 (max=0.005) | lambda=5.0
+[Epoch 159/1500 | Cost-Step 4] Loss=1.0444 | Acc=68.7% | ValLoss=1.0418 | ValAcc=69.1% | AvgCost=1.271 | FC2-Rate=0.0236 (max=0.005) | lambda=5.0
+[Epoch 160/1500 | Cost-Step 4] Loss=1.0473 | Acc=68.5% | ValLoss=1.0407 | ValAcc=69.1% | AvgCost=1.245 | FC2-Rate=0.0197 (max=0.005) | lambda=5.0
+[Epoch 161/1500 | Cost-Step 4] Loss=1.0533 | Acc=67.3% | ValLoss=1.0402 | ValAcc=68.8% | AvgCost=1.253 | FC2-Rate=0.0197 (max=0.005) | lambda=5.0
+[Epoch 162/1500 | Cost-Step 4] Loss=1.0665 | Acc=67.3% | ValLoss=1.0398 | ValAcc=68.8% | AvgCost=1.253 | FC2-Rate=0.0197 (max=0.005) | lambda=5.0
+[Epoch 163/1500 | Cost-Step 4] Loss=1.0386 | Acc=68.0% | ValLoss=1.0393 | ValAcc=68.8% | AvgCost=1.253 | FC2-Rate=0.0197 (max=0.005) | lambda=5.0
+[Epoch 164/1500 | Cost-Step 4] Loss=1.0268 | Acc=68.9% | ValLoss=1.0388 | ValAcc=68.8% | AvgCost=1.253 | FC2-Rate=0.0197 (max=0.005) | lambda=5.0
+[Epoch 165/1500 | Cost-Step 4] Loss=1.0574 | Acc=67.7% | ValLoss=1.0380 | ValAcc=69.3% | AvgCost=1.211 | FC2-Rate=0.0157 (max=0.005) | lambda=5.0
+[Epoch 166/1500 | Cost-Step 4] Loss=1.0382 | Acc=67.9% | ValLoss=1.0379 | ValAcc=69.1% | AvgCost=1.245 | FC2-Rate=0.0197 (max=0.005) | lambda=5.0
+[Epoch 167/1500 | Cost-Step 4] Loss=1.0238 | Acc=68.8% | ValLoss=1.0375 | ValAcc=68.8% | AvgCost=1.253 | FC2-Rate=0.0197 (max=0.005) | lambda=5.0
+[Epoch 168/1500 | Cost-Step 4] Loss=1.0196 | Acc=68.1% | ValLoss=1.0368 | ValAcc=69.3% | AvgCost=1.211 | FC2-Rate=0.0157 (max=0.005) | lambda=5.0
+[Epoch 169/1500 | Cost-Step 4] Loss=1.0350 | Acc=67.4% | ValLoss=1.0365 | ValAcc=69.1% | AvgCost=1.219 | FC2-Rate=0.0157 (max=0.005) | lambda=5.0
+[Epoch 170/1500 | Cost-Step 4] Loss=1.0170 | Acc=69.6% | ValLoss=1.0360 | ValAcc=69.1% | AvgCost=1.219 | FC2-Rate=0.0157 (max=0.005) | lambda=5.0
+[Epoch 171/1500 | Cost-Step 4] Loss=1.0375 | Acc=68.9% | ValLoss=1.0357 | ValAcc=69.1% | AvgCost=1.193 | FC2-Rate=0.0118 (max=0.005) | lambda=5.0
+[Epoch 172/1500 | Cost-Step 4] Loss=1.0577 | Acc=68.1% | ValLoss=1.0353 | ValAcc=69.1% | AvgCost=1.193 | FC2-Rate=0.0118 (max=0.005) | lambda=5.0
+[Epoch 173/1500 | Cost-Step 4] Loss=1.0352 | Acc=67.7% | ValLoss=1.0348 | ValAcc=69.1% | AvgCost=1.193 | FC2-Rate=0.0118 (max=0.005) | lambda=5.0
+[Epoch 174/1500 | Cost-Step 4] Loss=1.0166 | Acc=67.8% | ValLoss=1.0344 | ValAcc=69.1% | AvgCost=1.193 | FC2-Rate=0.0118 (max=0.005) | lambda=5.0
+[Epoch 175/1500 | Cost-Step 4] Loss=1.0396 | Acc=67.2% | ValLoss=1.0343 | ValAcc=69.1% | AvgCost=1.193 | FC2-Rate=0.0118 (max=0.005) | lambda=5.0
+[Epoch 176/1500 | Cost-Step 4] Loss=1.0180 | Acc=67.9% | ValLoss=1.0342 | ValAcc=69.1% | AvgCost=1.193 | FC2-Rate=0.0118 (max=0.005) | lambda=5.0
+[Epoch 177/1500 | Cost-Step 4] Loss=1.0590 | Acc=67.5% | ValLoss=1.0336 | ValAcc=69.1% | AvgCost=1.193 | FC2-Rate=0.0118 (max=0.005) | lambda=5.0
+[Epoch 178/1500 | Cost-Step 4] Loss=1.0421 | Acc=68.0% | ValLoss=1.0333 | ValAcc=69.1% | AvgCost=1.193 | FC2-Rate=0.0118 (max=0.005) | lambda=5.0
+[Epoch 179/1500 | Cost-Step 4] Loss=1.0120 | Acc=68.6% | ValLoss=1.0329 | ValAcc=69.1% | AvgCost=1.193 | FC2-Rate=0.0118 (max=0.005) | lambda=5.0
+[Epoch 180/1500 | Cost-Step 4] Loss=1.0024 | Acc=68.2% | ValLoss=1.0323 | ValAcc=69.1% | AvgCost=1.193 | FC2-Rate=0.0118 (max=0.005) | lambda=5.0
+[Epoch 181/1500 | Cost-Step 4] Loss=1.0589 | Acc=68.3% | ValLoss=1.0321 | ValAcc=69.1% | AvgCost=1.193 | FC2-Rate=0.0118 (max=0.005) | lambda=5.0
+[Epoch 182/1500 | Cost-Step 4] Loss=1.0770 | Acc=69.2% | ValLoss=1.0317 | ValAcc=69.1% | AvgCost=1.193 | FC2-Rate=0.0118 (max=0.005) | lambda=5.0
+[Epoch 183/1500 | Cost-Step 4] Loss=1.0025 | Acc=69.0% | ValLoss=1.0314 | ValAcc=69.1% | AvgCost=1.193 | FC2-Rate=0.0118 (max=0.005) | lambda=5.0
+[Epoch 184/1500 | Cost-Step 4] Loss=1.1019 | Acc=67.2% | ValLoss=1.0310 | ValAcc=69.1% | AvgCost=1.193 | FC2-Rate=0.0118 (max=0.005) | lambda=5.0
+[Epoch 185/1500 | Cost-Step 4] Loss=1.0325 | Acc=67.4% | ValLoss=1.0307 | ValAcc=69.1% | AvgCost=1.193 | FC2-Rate=0.0118 (max=0.005) | lambda=5.0
+[Epoch 186/1500 | Cost-Step 4] Loss=1.0616 | Acc=67.1% | ValLoss=1.0304 | ValAcc=69.3% | AvgCost=1.186 | FC2-Rate=0.0118 (max=0.005) | lambda=5.0
+[Epoch 187/1500 | Cost-Step 4] Loss=1.0237 | Acc=68.6% | ValLoss=1.0298 | ValAcc=69.3% | AvgCost=1.186 | FC2-Rate=0.0118 (max=0.005) | lambda=5.0
+[Epoch 188/1500 | Cost-Step 4] Loss=1.0203 | Acc=68.8% | ValLoss=1.0294 | ValAcc=69.3% | AvgCost=1.186 | FC2-Rate=0.0118 (max=0.005) | lambda=5.0
+[Epoch 189/1500 | Cost-Step 4] Loss=1.0172 | Acc=68.0% | ValLoss=1.0291 | ValAcc=69.3% | AvgCost=1.186 | FC2-Rate=0.0118 (max=0.005) | lambda=5.0
+[Epoch 190/1500 | Cost-Step 4] Loss=1.0556 | Acc=68.8% | ValLoss=1.0287 | ValAcc=69.3% | AvgCost=1.186 | FC2-Rate=0.0118 (max=0.005) | lambda=5.0
+[Epoch 191/1500 | Cost-Step 4] Loss=1.0306 | Acc=67.1% | ValLoss=1.0290 | ValAcc=69.3% | AvgCost=1.186 | FC2-Rate=0.0118 (max=0.005) | lambda=5.0
+  -> Stagnation at cost level (no FC2-rate improvement for 20 epochs, best FC2=0.0118). Increasing lambda 5.0 -> 6.0
+  Val CM:
+[[ 51   6   0]
+ [ 14 180   3]
+ [ 30  66  38]]
+[Epoch 192/1500 | Cost-Step 5] Loss=1.1177 | Acc=67.5% | ValLoss=1.0840 | ValAcc=69.1% | AvgCost=1.193 | FC2-Rate=0.0118 (max=0.005) | lambda=6.0
+[Epoch 193/1500 | Cost-Step 5] Loss=1.0992 | Acc=68.8% | ValLoss=1.0830 | ValAcc=69.1% | AvgCost=1.193 | FC2-Rate=0.0118 (max=0.005) | lambda=6.0
+[Epoch 194/1500 | Cost-Step 5] Loss=1.0732 | Acc=67.8% | ValLoss=1.0823 | ValAcc=69.1% | AvgCost=1.193 | FC2-Rate=0.0118 (max=0.005) | lambda=6.0
+[Epoch 195/1500 | Cost-Step 5] Loss=1.1016 | Acc=67.1% | ValLoss=1.0817 | ValAcc=69.1% | AvgCost=1.193 | FC2-Rate=0.0118 (max=0.005) | lambda=6.0
+[Epoch 196/1500 | Cost-Step 5] Loss=1.0738 | Acc=68.0% | ValLoss=1.0809 | ValAcc=69.1% | AvgCost=1.193 | FC2-Rate=0.0118 (max=0.005) | lambda=6.0
+[Epoch 197/1500 | Cost-Step 5] Loss=1.1206 | Acc=66.9% | ValLoss=1.0801 | ValAcc=68.8% | AvgCost=1.201 | FC2-Rate=0.0118 (max=0.005) | lambda=6.0
+[Epoch 198/1500 | Cost-Step 5] Loss=1.0419 | Acc=68.1% | ValLoss=1.0794 | ValAcc=68.8% | AvgCost=1.201 | FC2-Rate=0.0118 (max=0.005) | lambda=6.0
+[Epoch 199/1500 | Cost-Step 5] Loss=1.0920 | Acc=68.5% | ValLoss=1.0790 | ValAcc=68.8% | AvgCost=1.201 | FC2-Rate=0.0118 (max=0.005) | lambda=6.0
+[Epoch 200/1500 | Cost-Step 5] Loss=1.1286 | Acc=67.9% | ValLoss=1.0786 | ValAcc=68.8% | AvgCost=1.201 | FC2-Rate=0.0118 (max=0.005) | lambda=6.0
+[Epoch 201/1500 | Cost-Step 5] Loss=1.0492 | Acc=68.0% | ValLoss=1.0780 | ValAcc=68.8% | AvgCost=1.201 | FC2-Rate=0.0118 (max=0.005) | lambda=6.0
+[Epoch 202/1500 | Cost-Step 5] Loss=1.0488 | Acc=67.6% | ValLoss=1.0775 | ValAcc=68.8% | AvgCost=1.201 | FC2-Rate=0.0118 (max=0.005) | lambda=6.0
+[Epoch 203/1500 | Cost-Step 5] Loss=1.0479 | Acc=68.2% | ValLoss=1.0774 | ValAcc=68.8% | AvgCost=1.201 | FC2-Rate=0.0118 (max=0.005) | lambda=6.0
+[Epoch 204/1500 | Cost-Step 5] Loss=1.0391 | Acc=68.1% | ValLoss=1.0770 | ValAcc=68.8% | AvgCost=1.201 | FC2-Rate=0.0118 (max=0.005) | lambda=6.0
+[Epoch 205/1500 | Cost-Step 5] Loss=1.0772 | Acc=68.4% | ValLoss=1.0763 | ValAcc=68.8% | AvgCost=1.201 | FC2-Rate=0.0118 (max=0.005) | lambda=6.0
+[Epoch 206/1500 | Cost-Step 5] Loss=1.1363 | Acc=67.3% | ValLoss=1.0761 | ValAcc=68.8% | AvgCost=1.201 | FC2-Rate=0.0118 (max=0.005) | lambda=6.0
+[Epoch 207/1500 | Cost-Step 5] Loss=1.0528 | Acc=67.4% | ValLoss=1.0756 | ValAcc=68.8% | AvgCost=1.201 | FC2-Rate=0.0118 (max=0.005) | lambda=6.0
+[Epoch 208/1500 | Cost-Step 5] Loss=1.1008 | Acc=67.4% | ValLoss=1.0751 | ValAcc=68.8% | AvgCost=1.201 | FC2-Rate=0.0118 (max=0.005) | lambda=6.0
+[Epoch 209/1500 | Cost-Step 5] Loss=1.0899 | Acc=67.3% | ValLoss=1.0744 | ValAcc=68.8% | AvgCost=1.201 | FC2-Rate=0.0118 (max=0.005) | lambda=6.0
+[Epoch 210/1500 | Cost-Step 5] Loss=1.0824 | Acc=67.6% | ValLoss=1.0740 | ValAcc=68.8% | AvgCost=1.201 | FC2-Rate=0.0118 (max=0.005) | lambda=6.0
+[Epoch 211/1500 | Cost-Step 5] Loss=1.0584 | Acc=67.5% | ValLoss=1.0737 | ValAcc=69.1% | AvgCost=1.193 | FC2-Rate=0.0118 (max=0.005) | lambda=6.0
+[Epoch 212/1500 | Cost-Step 5] Loss=1.0771 | Acc=68.0% | ValLoss=1.0733 | ValAcc=69.1% | AvgCost=1.193 | FC2-Rate=0.0118 (max=0.005) | lambda=6.0
+  -> Stagnation at cost level (no FC2-rate improvement for 20 epochs, best FC2=0.0118). Increasing lambda 6.0 -> 7.0
+  Val CM:
+[[ 51   6   0]
+ [ 14 180   3]
+ [ 30  67  37]]
+[Epoch 213/1500 | Cost-Step 6] Loss=1.1311 | Acc=67.1% | ValLoss=1.1226 | ValAcc=68.8% | AvgCost=1.201 | FC2-Rate=0.0118 (max=0.005) | lambda=7.0
+[Epoch 214/1500 | Cost-Step 6] Loss=1.0840 | Acc=68.1% | ValLoss=1.1207 | ValAcc=68.8% | AvgCost=1.201 | FC2-Rate=0.0118 (max=0.005) | lambda=7.0
+[Epoch 215/1500 | Cost-Step 6] Loss=1.0705 | Acc=68.3% | ValLoss=1.1194 | ValAcc=68.8% | AvgCost=1.201 | FC2-Rate=0.0118 (max=0.005) | lambda=7.0
+[Epoch 216/1500 | Cost-Step 6] Loss=1.1386 | Acc=67.1% | ValLoss=1.1180 | ValAcc=68.8% | AvgCost=1.178 | FC2-Rate=0.0079 (max=0.005) | lambda=7.0
+[Epoch 217/1500 | Cost-Step 6] Loss=1.1160 | Acc=67.4% | ValLoss=1.1177 | ValAcc=69.1% | AvgCost=1.170 | FC2-Rate=0.0079 (max=0.005) | lambda=7.0
+[Epoch 218/1500 | Cost-Step 6] Loss=1.0968 | Acc=69.3% | ValLoss=1.1166 | ValAcc=68.8% | AvgCost=1.178 | FC2-Rate=0.0079 (max=0.005) | lambda=7.0
+[Epoch 219/1500 | Cost-Step 6] Loss=1.1200 | Acc=68.4% | ValLoss=1.1154 | ValAcc=68.8% | AvgCost=1.178 | FC2-Rate=0.0079 (max=0.005) | lambda=7.0
+[Epoch 220/1500 | Cost-Step 6] Loss=1.1029 | Acc=68.1% | ValLoss=1.1152 | ValAcc=68.8% | AvgCost=1.178 | FC2-Rate=0.0079 (max=0.005) | lambda=7.0
+[Epoch 221/1500 | Cost-Step 6] Loss=1.1673 | Acc=67.0% | ValLoss=1.1147 | ValAcc=68.6% | AvgCost=1.186 | FC2-Rate=0.0079 (max=0.005) | lambda=7.0
+[Epoch 222/1500 | Cost-Step 6] Loss=1.1252 | Acc=67.4% | ValLoss=1.1146 | ValAcc=68.6% | AvgCost=1.186 | FC2-Rate=0.0079 (max=0.005) | lambda=7.0
+[Epoch 223/1500 | Cost-Step 6] Loss=1.1079 | Acc=67.6% | ValLoss=1.1140 | ValAcc=68.6% | AvgCost=1.186 | FC2-Rate=0.0079 (max=0.005) | lambda=7.0
+[Epoch 224/1500 | Cost-Step 6] Loss=1.1247 | Acc=66.5% | ValLoss=1.1133 | ValAcc=68.8% | AvgCost=1.178 | FC2-Rate=0.0079 (max=0.005) | lambda=7.0
+[Epoch 225/1500 | Cost-Step 6] Loss=1.0985 | Acc=67.4% | ValLoss=1.1133 | ValAcc=68.6% | AvgCost=1.186 | FC2-Rate=0.0079 (max=0.005) | lambda=7.0
+[Epoch 226/1500 | Cost-Step 6] Loss=1.1151 | Acc=66.4% | ValLoss=1.1131 | ValAcc=68.6% | AvgCost=1.186 | FC2-Rate=0.0079 (max=0.005) | lambda=7.0
+[Epoch 227/1500 | Cost-Step 6] Loss=1.0694 | Acc=68.1% | ValLoss=1.1129 | ValAcc=68.8% | AvgCost=1.178 | FC2-Rate=0.0079 (max=0.005) | lambda=7.0
+[Epoch 228/1500 | Cost-Step 6] Loss=1.0802 | Acc=68.0% | ValLoss=1.1124 | ValAcc=68.6% | AvgCost=1.186 | FC2-Rate=0.0079 (max=0.005) | lambda=7.0
+[Epoch 229/1500 | Cost-Step 6] Loss=1.1226 | Acc=67.4% | ValLoss=1.1116 | ValAcc=68.3% | AvgCost=1.201 | FC2-Rate=0.0079 (max=0.005) | lambda=7.0
+[Epoch 230/1500 | Cost-Step 6] Loss=1.1070 | Acc=67.2% | ValLoss=1.1111 | ValAcc=68.3% | AvgCost=1.201 | FC2-Rate=0.0079 (max=0.005) | lambda=7.0
+[Epoch 231/1500 | Cost-Step 6] Loss=1.1016 | Acc=68.1% | ValLoss=1.1107 | ValAcc=68.3% | AvgCost=1.201 | FC2-Rate=0.0079 (max=0.005) | lambda=7.0
+[Epoch 232/1500 | Cost-Step 6] Loss=1.0908 | Acc=68.4% | ValLoss=1.1105 | ValAcc=68.3% | AvgCost=1.201 | FC2-Rate=0.0079 (max=0.005) | lambda=7.0
+[Epoch 233/1500 | Cost-Step 6] Loss=1.0962 | Acc=68.0% | ValLoss=1.1101 | ValAcc=68.3% | AvgCost=1.201 | FC2-Rate=0.0079 (max=0.005) | lambda=7.0
+[Epoch 234/1500 | Cost-Step 6] Loss=1.1178 | Acc=65.5% | ValLoss=1.1098 | ValAcc=68.3% | AvgCost=1.201 | FC2-Rate=0.0079 (max=0.005) | lambda=7.0
+[Epoch 235/1500 | Cost-Step 6] Loss=1.1065 | Acc=67.4% | ValLoss=1.1091 | ValAcc=68.3% | AvgCost=1.201 | FC2-Rate=0.0079 (max=0.005) | lambda=7.0
+[Epoch 236/1500 | Cost-Step 6] Loss=1.1290 | Acc=68.0% | ValLoss=1.1086 | ValAcc=68.3% | AvgCost=1.201 | FC2-Rate=0.0079 (max=0.005) | lambda=7.0
+  -> Stagnation at cost level (no FC2-rate improvement for 20 epochs, best FC2=0.0079). Increasing lambda 7.0 -> 8.0
+  Val CM:
+[[ 51   6   0]
+ [ 14 181   2]
+ [ 31  70  33]]
+[Epoch 237/1500 | Cost-Step 7] Loss=1.1755 | Acc=67.0% | ValLoss=1.1526 | ValAcc=68.3% | AvgCost=1.201 | FC2-Rate=0.0079 (max=0.005) | lambda=8.0
+[Epoch 238/1500 | Cost-Step 7] Loss=1.1770 | Acc=68.0% | ValLoss=1.1519 | ValAcc=68.3% | AvgCost=1.201 | FC2-Rate=0.0079 (max=0.005) | lambda=8.0
+[Epoch 239/1500 | Cost-Step 7] Loss=1.1720 | Acc=66.6% | ValLoss=1.1510 | ValAcc=68.3% | AvgCost=1.201 | FC2-Rate=0.0079 (max=0.005) | lambda=8.0
+[Epoch 240/1500 | Cost-Step 7] Loss=1.1428 | Acc=67.7% | ValLoss=1.1504 | ValAcc=68.3% | AvgCost=1.201 | FC2-Rate=0.0079 (max=0.005) | lambda=8.0
+[Epoch 241/1500 | Cost-Step 7] Loss=1.1863 | Acc=66.2% | ValLoss=1.1492 | ValAcc=68.3% | AvgCost=1.201 | FC2-Rate=0.0079 (max=0.005) | lambda=8.0
+[Epoch 242/1500 | Cost-Step 7] Loss=1.1567 | Acc=66.3% | ValLoss=1.1487 | ValAcc=68.3% | AvgCost=1.201 | FC2-Rate=0.0079 (max=0.005) | lambda=8.0
+[Epoch 243/1500 | Cost-Step 7] Loss=1.1645 | Acc=66.5% | ValLoss=1.1484 | ValAcc=68.3% | AvgCost=1.201 | FC2-Rate=0.0079 (max=0.005) | lambda=8.0
+[Epoch 244/1500 | Cost-Step 7] Loss=1.1693 | Acc=66.2% | ValLoss=1.1478 | ValAcc=68.3% | AvgCost=1.201 | FC2-Rate=0.0079 (max=0.005) | lambda=8.0
+[Epoch 245/1500 | Cost-Step 7] Loss=1.1675 | Acc=66.3% | ValLoss=1.1474 | ValAcc=68.3% | AvgCost=1.201 | FC2-Rate=0.0079 (max=0.005) | lambda=8.0
+[Epoch 246/1500 | Cost-Step 7] Loss=1.1937 | Acc=66.3% | ValLoss=1.1469 | ValAcc=68.3% | AvgCost=1.201 | FC2-Rate=0.0079 (max=0.005) | lambda=8.0
+[Epoch 247/1500 | Cost-Step 7] Loss=1.1399 | Acc=66.8% | ValLoss=1.1467 | ValAcc=68.3% | AvgCost=1.201 | FC2-Rate=0.0079 (max=0.005) | lambda=8.0
+[Epoch 248/1500 | Cost-Step 7] Loss=1.1735 | Acc=66.8% | ValLoss=1.1468 | ValAcc=68.3% | AvgCost=1.201 | FC2-Rate=0.0079 (max=0.005) | lambda=8.0
+[Epoch 249/1500 | Cost-Step 7] Loss=1.1525 | Acc=66.8% | ValLoss=1.1466 | ValAcc=68.3% | AvgCost=1.201 | FC2-Rate=0.0079 (max=0.005) | lambda=8.0
+[Epoch 250/1500 | Cost-Step 7] Loss=1.1773 | Acc=66.5% | ValLoss=1.1462 | ValAcc=68.3% | AvgCost=1.201 | FC2-Rate=0.0079 (max=0.005) | lambda=8.0
+[Epoch 251/1500 | Cost-Step 7] Loss=1.1358 | Acc=68.2% | ValLoss=1.1460 | ValAcc=68.3% | AvgCost=1.201 | FC2-Rate=0.0079 (max=0.005) | lambda=8.0
+[Epoch 252/1500 | Cost-Step 7] Loss=1.1810 | Acc=65.7% | ValLoss=1.1457 | ValAcc=68.3% | AvgCost=1.201 | FC2-Rate=0.0079 (max=0.005) | lambda=8.0
+[Epoch 253/1500 | Cost-Step 7] Loss=1.1301 | Acc=67.1% | ValLoss=1.1454 | ValAcc=68.3% | AvgCost=1.201 | FC2-Rate=0.0079 (max=0.005) | lambda=8.0
+[Epoch 254/1500 | Cost-Step 7] Loss=1.1585 | Acc=68.8% | ValLoss=1.1449 | ValAcc=68.3% | AvgCost=1.201 | FC2-Rate=0.0079 (max=0.005) | lambda=8.0
+[Epoch 255/1500 | Cost-Step 7] Loss=1.1693 | Acc=67.3% | ValLoss=1.1449 | ValAcc=68.3% | AvgCost=1.201 | FC2-Rate=0.0079 (max=0.005) | lambda=8.0
+[Epoch 256/1500 | Cost-Step 7] Loss=1.1376 | Acc=66.8% | ValLoss=1.1446 | ValAcc=68.3% | AvgCost=1.201 | FC2-Rate=0.0079 (max=0.005) | lambda=8.0
+[Epoch 257/1500 | Cost-Step 7] Loss=1.1646 | Acc=65.4% | ValLoss=1.1444 | ValAcc=68.3% | AvgCost=1.201 | FC2-Rate=0.0079 (max=0.005) | lambda=8.0
+  -> Stagnation at cost level (no FC2-rate improvement for 20 epochs, best FC2=0.0079). Increasing lambda 8.0 -> 9.0
+  Val CM:
+[[ 51   6   0]
+ [ 14 181   2]
+ [ 31  70  33]]
+[Epoch 258/1500 | Cost-Step 8] Loss=1.1924 | Acc=67.4% | ValLoss=1.1846 | ValAcc=68.3% | AvgCost=1.201 | FC2-Rate=0.0079 (max=0.005) | lambda=9.0
+[Epoch 259/1500 | Cost-Step 8] Loss=1.1509 | Acc=67.8% | ValLoss=1.1842 | ValAcc=68.3% | AvgCost=1.201 | FC2-Rate=0.0079 (max=0.005) | lambda=9.0
+[Epoch 260/1500 | Cost-Step 8] Loss=1.2051 | Acc=67.7% | ValLoss=1.1835 | ValAcc=68.3% | AvgCost=1.201 | FC2-Rate=0.0079 (max=0.005) | lambda=9.0
+[Epoch 261/1500 | Cost-Step 8] Loss=1.2203 | Acc=67.3% | ValLoss=1.1824 | ValAcc=68.3% | AvgCost=1.193 | FC2-Rate=0.0079 (max=0.005) | lambda=9.0
+[Epoch 262/1500 | Cost-Step 8] Loss=1.2219 | Acc=65.9% | ValLoss=1.1811 | ValAcc=67.8% | AvgCost=1.216 | FC2-Rate=0.0079 (max=0.005) | lambda=9.0
+[Epoch 263/1500 | Cost-Step 8] Loss=1.2308 | Acc=65.8% | ValLoss=1.1804 | ValAcc=67.8% | AvgCost=1.216 | FC2-Rate=0.0079 (max=0.005) | lambda=9.0
+[Epoch 264/1500 | Cost-Step 8] Loss=1.1931 | Acc=66.5% | ValLoss=1.1793 | ValAcc=67.8% | AvgCost=1.224 | FC2-Rate=0.0079 (max=0.005) | lambda=9.0
+[Epoch 265/1500 | Cost-Step 8] Loss=1.1922 | Acc=66.5% | ValLoss=1.1786 | ValAcc=67.8% | AvgCost=1.224 | FC2-Rate=0.0079 (max=0.005) | lambda=9.0
+[Epoch 266/1500 | Cost-Step 8] Loss=1.1966 | Acc=67.1% | ValLoss=1.1785 | ValAcc=67.8% | AvgCost=1.216 | FC2-Rate=0.0079 (max=0.005) | lambda=9.0
+[Epoch 267/1500 | Cost-Step 8] Loss=1.1896 | Acc=66.6% | ValLoss=1.1783 | ValAcc=67.8% | AvgCost=1.216 | FC2-Rate=0.0079 (max=0.005) | lambda=9.0
+[Epoch 268/1500 | Cost-Step 8] Loss=1.1831 | Acc=67.0% | ValLoss=1.1780 | ValAcc=67.5% | AvgCost=1.224 | FC2-Rate=0.0079 (max=0.005) | lambda=9.0
+[Epoch 269/1500 | Cost-Step 8] Loss=1.1471 | Acc=66.1% | ValLoss=1.1774 | ValAcc=67.8% | AvgCost=1.224 | FC2-Rate=0.0079 (max=0.005) | lambda=9.0
+[Epoch 270/1500 | Cost-Step 8] Loss=1.2201 | Acc=65.4% | ValLoss=1.1768 | ValAcc=67.8% | AvgCost=1.224 | FC2-Rate=0.0079 (max=0.005) | lambda=9.0
+[Epoch 271/1500 | Cost-Step 8] Loss=1.1966 | Acc=66.4% | ValLoss=1.1763 | ValAcc=67.8% | AvgCost=1.224 | FC2-Rate=0.0079 (max=0.005) | lambda=9.0
+[Epoch 272/1500 | Cost-Step 8] Loss=1.1773 | Acc=67.3% | ValLoss=1.1761 | ValAcc=67.8% | AvgCost=1.224 | FC2-Rate=0.0079 (max=0.005) | lambda=9.0
+[Epoch 273/1500 | Cost-Step 8] Loss=1.1421 | Acc=65.7% | ValLoss=1.1757 | ValAcc=67.8% | AvgCost=1.224 | FC2-Rate=0.0079 (max=0.005) | lambda=9.0
+[Epoch 274/1500 | Cost-Step 8] Loss=1.2020 | Acc=66.2% | ValLoss=1.1753 | ValAcc=67.8% | AvgCost=1.224 | FC2-Rate=0.0079 (max=0.005) | lambda=9.0
+[Epoch 275/1500 | Cost-Step 8] Loss=1.1815 | Acc=66.9% | ValLoss=1.1748 | ValAcc=67.8% | AvgCost=1.224 | FC2-Rate=0.0079 (max=0.005) | lambda=9.0
+[Epoch 276/1500 | Cost-Step 8] Loss=1.2132 | Acc=66.2% | ValLoss=1.1750 | ValAcc=67.8% | AvgCost=1.224 | FC2-Rate=0.0079 (max=0.005) | lambda=9.0
+[Epoch 277/1500 | Cost-Step 8] Loss=1.1538 | Acc=66.4% | ValLoss=1.1754 | ValAcc=67.3% | AvgCost=1.232 | FC2-Rate=0.0079 (max=0.005) | lambda=9.0
+[Epoch 278/1500 | Cost-Step 8] Loss=1.2045 | Acc=67.1% | ValLoss=1.1751 | ValAcc=67.3% | AvgCost=1.232 | FC2-Rate=0.0079 (max=0.005) | lambda=9.0
+  -> Stagnation at cost level (no FC2-rate improvement for 20 epochs, best FC2=0.0079). Increasing lambda 9.0 -> 10.0
+  Val CM:
+[[ 51   6   0]
+ [ 14 181   2]
+ [ 31  74  29]]
+[Epoch 279/1500 | Cost-Step 9] Loss=1.2633 | Acc=66.5% | ValLoss=1.2109 | ValAcc=67.3% | AvgCost=1.232 | FC2-Rate=0.0079 (max=0.005) | lambda=10.0
+[Epoch 280/1500 | Cost-Step 9] Loss=1.2442 | Acc=65.9% | ValLoss=1.2098 | ValAcc=67.3% | AvgCost=1.232 | FC2-Rate=0.0079 (max=0.005) | lambda=10.0
+[Epoch 281/1500 | Cost-Step 9] Loss=1.2036 | Acc=66.2% | ValLoss=1.2094 | ValAcc=67.3% | AvgCost=1.232 | FC2-Rate=0.0079 (max=0.005) | lambda=10.0
+[Epoch 282/1500 | Cost-Step 9] Loss=1.2094 | Acc=65.7% | ValLoss=1.2091 | ValAcc=67.3% | AvgCost=1.232 | FC2-Rate=0.0079 (max=0.005) | lambda=10.0
+[Epoch 283/1500 | Cost-Step 9] Loss=1.1455 | Acc=66.9% | ValLoss=1.2085 | ValAcc=67.3% | AvgCost=1.232 | FC2-Rate=0.0079 (max=0.005) | lambda=10.0
+[Epoch 284/1500 | Cost-Step 9] Loss=1.2335 | Acc=67.0% | ValLoss=1.2083 | ValAcc=67.3% | AvgCost=1.232 | FC2-Rate=0.0079 (max=0.005) | lambda=10.0
+[Epoch 285/1500 | Cost-Step 9] Loss=1.2116 | Acc=66.2% | ValLoss=1.2079 | ValAcc=67.3% | AvgCost=1.232 | FC2-Rate=0.0079 (max=0.005) | lambda=10.0
+[Epoch 286/1500 | Cost-Step 9] Loss=1.2401 | Acc=66.8% | ValLoss=1.2075 | ValAcc=67.3% | AvgCost=1.232 | FC2-Rate=0.0079 (max=0.005) | lambda=10.0
+[Epoch 287/1500 | Cost-Step 9] Loss=1.1973 | Acc=67.0% | ValLoss=1.2073 | ValAcc=67.3% | AvgCost=1.232 | FC2-Rate=0.0079 (max=0.005) | lambda=10.0
+[Epoch 288/1500 | Cost-Step 9] Loss=1.2437 | Acc=66.5% | ValLoss=1.2071 | ValAcc=67.3% | AvgCost=1.232 | FC2-Rate=0.0079 (max=0.005) | lambda=10.0
+[Epoch 289/1500 | Cost-Step 9] Loss=1.2226 | Acc=66.3% | ValLoss=1.2067 | ValAcc=67.3% | AvgCost=1.232 | FC2-Rate=0.0079 (max=0.005) | lambda=10.0
+[Epoch 290/1500 | Cost-Step 9] Loss=1.2185 | Acc=65.8% | ValLoss=1.2060 | ValAcc=67.3% | AvgCost=1.232 | FC2-Rate=0.0079 (max=0.005) | lambda=10.0
+[Epoch 291/1500 | Cost-Step 9] Loss=1.2123 | Acc=65.8% | ValLoss=1.2056 | ValAcc=67.3% | AvgCost=1.232 | FC2-Rate=0.0079 (max=0.005) | lambda=10.0
+[Epoch 292/1500 | Cost-Step 9] Loss=1.2122 | Acc=65.3% | ValLoss=1.2051 | ValAcc=67.3% | AvgCost=1.232 | FC2-Rate=0.0079 (max=0.005) | lambda=10.0
+[Epoch 293/1500 | Cost-Step 9] Loss=1.1782 | Acc=66.3% | ValLoss=1.2049 | ValAcc=67.3% | AvgCost=1.232 | FC2-Rate=0.0079 (max=0.005) | lambda=10.0
+[Epoch 294/1500 | Cost-Step 9] Loss=1.1492 | Acc=65.5% | ValLoss=1.2048 | ValAcc=67.3% | AvgCost=1.232 | FC2-Rate=0.0079 (max=0.005) | lambda=10.0
+[Epoch 295/1500 | Cost-Step 9] Loss=1.2394 | Acc=65.9% | ValLoss=1.2045 | ValAcc=67.3% | AvgCost=1.232 | FC2-Rate=0.0079 (max=0.005) | lambda=10.0
+[Epoch 296/1500 | Cost-Step 9] Loss=1.2046 | Acc=65.9% | ValLoss=1.2043 | ValAcc=67.3% | AvgCost=1.232 | FC2-Rate=0.0079 (max=0.005) | lambda=10.0
+[Epoch 297/1500 | Cost-Step 9] Loss=1.2344 | Acc=65.5% | ValLoss=1.2041 | ValAcc=67.3% | AvgCost=1.232 | FC2-Rate=0.0079 (max=0.005) | lambda=10.0
+[Epoch 298/1500 | Cost-Step 9] Loss=1.2455 | Acc=66.1% | ValLoss=1.2041 | ValAcc=67.3% | AvgCost=1.232 | FC2-Rate=0.0079 (max=0.005) | lambda=10.0
+[Epoch 299/1500 | Cost-Step 9] Loss=1.2178 | Acc=65.4% | ValLoss=1.2040 | ValAcc=67.3% | AvgCost=1.232 | FC2-Rate=0.0079 (max=0.005) | lambda=10.0
+  -> Stagnation at cost level (no FC2-rate improvement for 20 epochs, best FC2=0.0079). Increasing lambda 10.0 -> 11.0
+  Val CM:
+[[ 51   6   0]
+ [ 14 181   2]
+ [ 31  74  29]]
+[Epoch 300/1500 | Cost-Step 10] Loss=1.2277 | Acc=66.7% | ValLoss=1.2371 | ValAcc=67.3% | AvgCost=1.232 | FC2-Rate=0.0079 (max=0.005) | lambda=11.0
+[Epoch 301/1500 | Cost-Step 10] Loss=1.2142 | Acc=65.3% | ValLoss=1.2365 | ValAcc=67.3% | AvgCost=1.232 | FC2-Rate=0.0079 (max=0.005) | lambda=11.0
+[Epoch 302/1500 | Cost-Step 10] Loss=1.2238 | Acc=67.1% | ValLoss=1.2356 | ValAcc=67.3% | AvgCost=1.232 | FC2-Rate=0.0079 (max=0.005) | lambda=11.0
+[Epoch 303/1500 | Cost-Step 10] Loss=1.2803 | Acc=66.5% | ValLoss=1.2348 | ValAcc=67.3% | AvgCost=1.232 | FC2-Rate=0.0079 (max=0.005) | lambda=11.0
+[Epoch 304/1500 | Cost-Step 10] Loss=1.2551 | Acc=65.9% | ValLoss=1.2344 | ValAcc=67.3% | AvgCost=1.232 | FC2-Rate=0.0079 (max=0.005) | lambda=11.0
+[Epoch 305/1500 | Cost-Step 10] Loss=1.2409 | Acc=66.6% | ValLoss=1.2339 | ValAcc=67.3% | AvgCost=1.232 | FC2-Rate=0.0079 (max=0.005) | lambda=11.0
+[Epoch 306/1500 | Cost-Step 10] Loss=1.2490 | Acc=66.1% | ValLoss=1.2332 | ValAcc=67.3% | AvgCost=1.232 | FC2-Rate=0.0079 (max=0.005) | lambda=11.0
+[Epoch 307/1500 | Cost-Step 10] Loss=1.2625 | Acc=65.6% | ValLoss=1.2334 | ValAcc=67.3% | AvgCost=1.232 | FC2-Rate=0.0079 (max=0.005) | lambda=11.0
+[Epoch 308/1500 | Cost-Step 10] Loss=1.2973 | Acc=66.5% | ValLoss=1.2330 | ValAcc=67.3% | AvgCost=1.232 | FC2-Rate=0.0079 (max=0.005) | lambda=11.0
+[Epoch 309/1500 | Cost-Step 10] Loss=1.2668 | Acc=65.2% | ValLoss=1.2325 | ValAcc=67.3% | AvgCost=1.232 | FC2-Rate=0.0079 (max=0.005) | lambda=11.0
+[Epoch 310/1500 | Cost-Step 10] Loss=1.2383 | Acc=65.5% | ValLoss=1.2317 | ValAcc=67.0% | AvgCost=1.240 | FC2-Rate=0.0079 (max=0.005) | lambda=11.0
+[Epoch 311/1500 | Cost-Step 10] Loss=1.2546 | Acc=65.3% | ValLoss=1.2314 | ValAcc=67.3% | AvgCost=1.232 | FC2-Rate=0.0079 (max=0.005) | lambda=11.0
+[Epoch 312/1500 | Cost-Step 10] Loss=1.2365 | Acc=65.6% | ValLoss=1.2315 | ValAcc=67.3% | AvgCost=1.232 | FC2-Rate=0.0079 (max=0.005) | lambda=11.0
+[Epoch 313/1500 | Cost-Step 10] Loss=1.2053 | Acc=66.1% | ValLoss=1.2314 | ValAcc=67.3% | AvgCost=1.232 | FC2-Rate=0.0079 (max=0.005) | lambda=11.0
+[Epoch 314/1500 | Cost-Step 10] Loss=1.2741 | Acc=64.9% | ValLoss=1.2308 | ValAcc=67.3% | AvgCost=1.232 | FC2-Rate=0.0079 (max=0.005) | lambda=11.0
+[Epoch 315/1500 | Cost-Step 10] Loss=1.2407 | Acc=65.8% | ValLoss=1.2304 | ValAcc=67.3% | AvgCost=1.232 | FC2-Rate=0.0079 (max=0.005) | lambda=11.0
+[Epoch 316/1500 | Cost-Step 10] Loss=1.1930 | Acc=65.5% | ValLoss=1.2301 | ValAcc=67.3% | AvgCost=1.232 | FC2-Rate=0.0079 (max=0.005) | lambda=11.0
+[Epoch 317/1500 | Cost-Step 10] Loss=1.2557 | Acc=65.5% | ValLoss=1.2291 | ValAcc=67.3% | AvgCost=1.240 | FC2-Rate=0.0079 (max=0.005) | lambda=11.0
+[Epoch 318/1500 | Cost-Step 10] Loss=1.2289 | Acc=66.9% | ValLoss=1.2292 | ValAcc=67.3% | AvgCost=1.232 | FC2-Rate=0.0079 (max=0.005) | lambda=11.0
+[Epoch 319/1500 | Cost-Step 10] Loss=1.2213 | Acc=66.0% | ValLoss=1.2289 | ValAcc=67.3% | AvgCost=1.232 | FC2-Rate=0.0079 (max=0.005) | lambda=11.0
+[Epoch 320/1500 | Cost-Step 10] Loss=1.2035 | Acc=66.6% | ValLoss=1.2286 | ValAcc=67.3% | AvgCost=1.232 | FC2-Rate=0.0079 (max=0.005) | lambda=11.0
+  -> Stagnation at cost level (no FC2-rate improvement for 20 epochs, best FC2=0.0079). Increasing lambda 11.0 -> 12.0
+  Val CM:
+[[ 51   6   0]
+ [ 14 181   2]
+ [ 31  74  29]]
+[Epoch 321/1500 | Cost-Step 11] Loss=1.2966 | Acc=65.9% | ValLoss=1.2600 | ValAcc=67.3% | AvgCost=1.232 | FC2-Rate=0.0079 (max=0.005) | lambda=12.0
+[Epoch 322/1500 | Cost-Step 11] Loss=1.2562 | Acc=66.7% | ValLoss=1.2591 | ValAcc=67.3% | AvgCost=1.232 | FC2-Rate=0.0079 (max=0.005) | lambda=12.0
+[Epoch 323/1500 | Cost-Step 11] Loss=1.2308 | Acc=66.5% | ValLoss=1.2586 | ValAcc=67.3% | AvgCost=1.232 | FC2-Rate=0.0079 (max=0.005) | lambda=12.0
+[Epoch 324/1500 | Cost-Step 11] Loss=1.2644 | Acc=66.3% | ValLoss=1.2580 | ValAcc=67.3% | AvgCost=1.232 | FC2-Rate=0.0079 (max=0.005) | lambda=12.0
+[Epoch 325/1500 | Cost-Step 11] Loss=1.2665 | Acc=66.0% | ValLoss=1.2581 | ValAcc=67.3% | AvgCost=1.232 | FC2-Rate=0.0079 (max=0.005) | lambda=12.0
+[Epoch 326/1500 | Cost-Step 11] Loss=1.2254 | Acc=66.2% | ValLoss=1.2575 | ValAcc=67.3% | AvgCost=1.232 | FC2-Rate=0.0079 (max=0.005) | lambda=12.0
+[Epoch 327/1500 | Cost-Step 11] Loss=1.2823 | Acc=66.4% | ValLoss=1.2573 | ValAcc=67.3% | AvgCost=1.232 | FC2-Rate=0.0079 (max=0.005) | lambda=12.0
+[Epoch 328/1500 | Cost-Step 11] Loss=1.2584 | Acc=65.6% | ValLoss=1.2568 | ValAcc=67.0% | AvgCost=1.240 | FC2-Rate=0.0079 (max=0.005) | lambda=12.0
+[Epoch 329/1500 | Cost-Step 11] Loss=1.2851 | Acc=65.4% | ValLoss=1.2560 | ValAcc=67.0% | AvgCost=1.240 | FC2-Rate=0.0079 (max=0.005) | lambda=12.0
+[Epoch 330/1500 | Cost-Step 11] Loss=1.2236 | Acc=66.6% | ValLoss=1.2556 | ValAcc=67.0% | AvgCost=1.240 | FC2-Rate=0.0079 (max=0.005) | lambda=12.0
+[Epoch 331/1500 | Cost-Step 11] Loss=1.2455 | Acc=65.5% | ValLoss=1.2553 | ValAcc=67.0% | AvgCost=1.240 | FC2-Rate=0.0079 (max=0.005) | lambda=12.0
+[Epoch 332/1500 | Cost-Step 11] Loss=1.2213 | Acc=65.7% | ValLoss=1.2553 | ValAcc=67.0% | AvgCost=1.240 | FC2-Rate=0.0079 (max=0.005) | lambda=12.0
+[Epoch 333/1500 | Cost-Step 11] Loss=1.3328 | Acc=66.8% | ValLoss=1.2557 | ValAcc=67.0% | AvgCost=1.240 | FC2-Rate=0.0079 (max=0.005) | lambda=12.0
+[Epoch 334/1500 | Cost-Step 11] Loss=1.2708 | Acc=65.7% | ValLoss=1.2556 | ValAcc=67.0% | AvgCost=1.240 | FC2-Rate=0.0079 (max=0.005) | lambda=12.0
+[Epoch 335/1500 | Cost-Step 11] Loss=1.3157 | Acc=64.0% | ValLoss=1.2555 | ValAcc=67.0% | AvgCost=1.240 | FC2-Rate=0.0079 (max=0.005) | lambda=12.0
+[Epoch 336/1500 | Cost-Step 11] Loss=1.2590 | Acc=66.9% | ValLoss=1.2551 | ValAcc=67.0% | AvgCost=1.240 | FC2-Rate=0.0079 (max=0.005) | lambda=12.0
+[Epoch 337/1500 | Cost-Step 11] Loss=1.2606 | Acc=64.3% | ValLoss=1.2549 | ValAcc=67.0% | AvgCost=1.240 | FC2-Rate=0.0079 (max=0.005) | lambda=12.0
+[Epoch 338/1500 | Cost-Step 11] Loss=1.2945 | Acc=65.2% | ValLoss=1.2547 | ValAcc=67.0% | AvgCost=1.240 | FC2-Rate=0.0079 (max=0.005) | lambda=12.0
+[Epoch 339/1500 | Cost-Step 11] Loss=1.2168 | Acc=65.5% | ValLoss=1.2545 | ValAcc=67.0% | AvgCost=1.240 | FC2-Rate=0.0079 (max=0.005) | lambda=12.0
+[Epoch 340/1500 | Cost-Step 11] Loss=1.2427 | Acc=65.5% | ValLoss=1.2542 | ValAcc=67.0% | AvgCost=1.240 | FC2-Rate=0.0079 (max=0.005) | lambda=12.0
+[Epoch 341/1500 | Cost-Step 11] Loss=1.2316 | Acc=66.2% | ValLoss=1.2541 | ValAcc=67.3% | AvgCost=1.232 | FC2-Rate=0.0079 (max=0.005) | lambda=12.0
+  -> Stagnation at cost level (no FC2-rate improvement for 20 epochs, best FC2=0.0079). Increasing lambda 12.0 -> 13.0
+  Val CM:
+[[ 51   6   0]
+ [ 14 181   2]
+ [ 31  74  29]]
+[Epoch 342/1500 | Cost-Step 12] Loss=1.3103 | Acc=65.4% | ValLoss=1.2838 | ValAcc=67.3% | AvgCost=1.232 | FC2-Rate=0.0079 (max=0.005) | lambda=13.0
+[Epoch 343/1500 | Cost-Step 12] Loss=1.2955 | Acc=66.8% | ValLoss=1.2832 | ValAcc=66.8% | AvgCost=1.247 | FC2-Rate=0.0079 (max=0.005) | lambda=13.0
+[Epoch 344/1500 | Cost-Step 12] Loss=1.3036 | Acc=66.4% | ValLoss=1.2831 | ValAcc=66.8% | AvgCost=1.247 | FC2-Rate=0.0079 (max=0.005) | lambda=13.0
+[Epoch 345/1500 | Cost-Step 12] Loss=1.2542 | Acc=64.9% | ValLoss=1.2831 | ValAcc=66.8% | AvgCost=1.247 | FC2-Rate=0.0079 (max=0.005) | lambda=13.0
+[Epoch 346/1500 | Cost-Step 12] Loss=1.2831 | Acc=65.7% | ValLoss=1.2829 | ValAcc=66.8% | AvgCost=1.247 | FC2-Rate=0.0079 (max=0.005) | lambda=13.0
+[Epoch 347/1500 | Cost-Step 12] Loss=1.3217 | Acc=66.0% | ValLoss=1.2824 | ValAcc=66.8% | AvgCost=1.247 | FC2-Rate=0.0079 (max=0.005) | lambda=13.0
+[Epoch 348/1500 | Cost-Step 12] Loss=1.3232 | Acc=64.3% | ValLoss=1.2814 | ValAcc=66.8% | AvgCost=1.247 | FC2-Rate=0.0079 (max=0.005) | lambda=13.0
+[Epoch 349/1500 | Cost-Step 12] Loss=1.2471 | Acc=66.3% | ValLoss=1.2804 | ValAcc=66.8% | AvgCost=1.247 | FC2-Rate=0.0079 (max=0.005) | lambda=13.0
+[Epoch 350/1500 | Cost-Step 12] Loss=1.3483 | Acc=64.8% | ValLoss=1.2795 | ValAcc=66.8% | AvgCost=1.247 | FC2-Rate=0.0079 (max=0.005) | lambda=13.0
+[Epoch 351/1500 | Cost-Step 12] Loss=1.3231 | Acc=66.3% | ValLoss=1.2784 | ValAcc=66.8% | AvgCost=1.247 | FC2-Rate=0.0079 (max=0.005) | lambda=13.0
+[Epoch 352/1500 | Cost-Step 12] Loss=1.2754 | Acc=65.6% | ValLoss=1.2780 | ValAcc=66.8% | AvgCost=1.247 | FC2-Rate=0.0079 (max=0.005) | lambda=13.0
+[Epoch 353/1500 | Cost-Step 12] Loss=1.2733 | Acc=66.2% | ValLoss=1.2781 | ValAcc=66.8% | AvgCost=1.247 | FC2-Rate=0.0079 (max=0.005) | lambda=13.0
+[Epoch 354/1500 | Cost-Step 12] Loss=1.3098 | Acc=66.5% | ValLoss=1.2784 | ValAcc=66.8% | AvgCost=1.247 | FC2-Rate=0.0079 (max=0.005) | lambda=13.0
+[Epoch 355/1500 | Cost-Step 12] Loss=1.2785 | Acc=65.2% | ValLoss=1.2783 | ValAcc=66.8% | AvgCost=1.247 | FC2-Rate=0.0079 (max=0.005) | lambda=13.0
+[Epoch 356/1500 | Cost-Step 12] Loss=1.3084 | Acc=64.9% | ValLoss=1.2780 | ValAcc=66.8% | AvgCost=1.247 | FC2-Rate=0.0079 (max=0.005) | lambda=13.0
+[Epoch 357/1500 | Cost-Step 12] Loss=1.2802 | Acc=66.2% | ValLoss=1.2775 | ValAcc=66.8% | AvgCost=1.247 | FC2-Rate=0.0079 (max=0.005) | lambda=13.0
+[Epoch 358/1500 | Cost-Step 12] Loss=1.3781 | Acc=64.9% | ValLoss=1.2770 | ValAcc=66.8% | AvgCost=1.247 | FC2-Rate=0.0079 (max=0.005) | lambda=13.0
+[Epoch 359/1500 | Cost-Step 12] Loss=1.2964 | Acc=64.9% | ValLoss=1.2769 | ValAcc=66.8% | AvgCost=1.247 | FC2-Rate=0.0079 (max=0.005) | lambda=13.0
+[Epoch 360/1500 | Cost-Step 12] Loss=1.3233 | Acc=66.0% | ValLoss=1.2770 | ValAcc=66.8% | AvgCost=1.247 | FC2-Rate=0.0079 (max=0.005) | lambda=13.0
+[Epoch 361/1500 | Cost-Step 12] Loss=1.2177 | Acc=65.8% | ValLoss=1.2770 | ValAcc=66.8% | AvgCost=1.247 | FC2-Rate=0.0079 (max=0.005) | lambda=13.0
+[Epoch 362/1500 | Cost-Step 12] Loss=1.2734 | Acc=66.6% | ValLoss=1.2767 | ValAcc=66.8% | AvgCost=1.247 | FC2-Rate=0.0079 (max=0.005) | lambda=13.0
+  -> Stagnation at cost level (no FC2-rate improvement for 20 epochs, best FC2=0.0079). Increasing lambda 13.0 -> 14.0
+  Val CM:
+[[ 51   6   0]
+ [ 14 181   2]
+ [ 31  76  27]]
+[Epoch 363/1500 | Cost-Step 13] Loss=1.3148 | Acc=64.9% | ValLoss=1.3041 | ValAcc=66.8% | AvgCost=1.247 | FC2-Rate=0.0079 (max=0.005) | lambda=14.0
+[Epoch 364/1500 | Cost-Step 13] Loss=1.2989 | Acc=65.6% | ValLoss=1.3030 | ValAcc=66.8% | AvgCost=1.247 | FC2-Rate=0.0079 (max=0.005) | lambda=14.0
+[Epoch 365/1500 | Cost-Step 13] Loss=1.2888 | Acc=65.7% | ValLoss=1.3028 | ValAcc=66.8% | AvgCost=1.247 | FC2-Rate=0.0079 (max=0.005) | lambda=14.0
+[Epoch 366/1500 | Cost-Step 13] Loss=1.3347 | Acc=65.3% | ValLoss=1.3023 | ValAcc=66.5% | AvgCost=1.255 | FC2-Rate=0.0079 (max=0.005) | lambda=14.0
+[Epoch 367/1500 | Cost-Step 13] Loss=1.2911 | Acc=65.5% | ValLoss=1.3020 | ValAcc=66.5% | AvgCost=1.255 | FC2-Rate=0.0079 (max=0.005) | lambda=14.0
+[Epoch 368/1500 | Cost-Step 13] Loss=1.3742 | Acc=64.6% | ValLoss=1.3016 | ValAcc=66.5% | AvgCost=1.255 | FC2-Rate=0.0079 (max=0.005) | lambda=14.0
+[Epoch 369/1500 | Cost-Step 13] Loss=1.3637 | Acc=64.7% | ValLoss=1.3013 | ValAcc=66.5% | AvgCost=1.255 | FC2-Rate=0.0079 (max=0.005) | lambda=14.0
+[Epoch 370/1500 | Cost-Step 13] Loss=1.2945 | Acc=65.3% | ValLoss=1.3001 | ValAcc=66.5% | AvgCost=1.255 | FC2-Rate=0.0079 (max=0.005) | lambda=14.0
+[Epoch 371/1500 | Cost-Step 13] Loss=1.2840 | Acc=66.0% | ValLoss=1.3000 | ValAcc=66.5% | AvgCost=1.255 | FC2-Rate=0.0079 (max=0.005) | lambda=14.0
+[Epoch 372/1500 | Cost-Step 13] Loss=1.2759 | Acc=65.3% | ValLoss=1.3000 | ValAcc=66.5% | AvgCost=1.255 | FC2-Rate=0.0079 (max=0.005) | lambda=14.0
+[Epoch 373/1500 | Cost-Step 13] Loss=1.2809 | Acc=65.2% | ValLoss=1.2996 | ValAcc=66.5% | AvgCost=1.255 | FC2-Rate=0.0079 (max=0.005) | lambda=14.0
+[Epoch 374/1500 | Cost-Step 13] Loss=1.2938 | Acc=65.1% | ValLoss=1.2995 | ValAcc=66.5% | AvgCost=1.255 | FC2-Rate=0.0079 (max=0.005) | lambda=14.0
+[Epoch 375/1500 | Cost-Step 13] Loss=1.3114 | Acc=66.1% | ValLoss=1.2998 | ValAcc=66.5% | AvgCost=1.255 | FC2-Rate=0.0079 (max=0.005) | lambda=14.0
+[Epoch 376/1500 | Cost-Step 13] Loss=1.2795 | Acc=65.6% | ValLoss=1.2995 | ValAcc=66.5% | AvgCost=1.255 | FC2-Rate=0.0079 (max=0.005) | lambda=14.0
+[Epoch 377/1500 | Cost-Step 13] Loss=1.3206 | Acc=64.9% | ValLoss=1.2990 | ValAcc=66.5% | AvgCost=1.255 | FC2-Rate=0.0079 (max=0.005) | lambda=14.0
+[Epoch 378/1500 | Cost-Step 13] Loss=1.3204 | Acc=65.7% | ValLoss=1.2990 | ValAcc=66.5% | AvgCost=1.255 | FC2-Rate=0.0079 (max=0.005) | lambda=14.0
+[Epoch 379/1500 | Cost-Step 13] Loss=1.3257 | Acc=65.3% | ValLoss=1.2992 | ValAcc=66.5% | AvgCost=1.255 | FC2-Rate=0.0079 (max=0.005) | lambda=14.0
+[Epoch 380/1500 | Cost-Step 13] Loss=1.3211 | Acc=66.5% | ValLoss=1.2989 | ValAcc=66.5% | AvgCost=1.255 | FC2-Rate=0.0079 (max=0.005) | lambda=14.0
+[Epoch 381/1500 | Cost-Step 13] Loss=1.3239 | Acc=65.9% | ValLoss=1.2982 | ValAcc=66.5% | AvgCost=1.255 | FC2-Rate=0.0079 (max=0.005) | lambda=14.0
+[Epoch 382/1500 | Cost-Step 13] Loss=1.3025 | Acc=64.5% | ValLoss=1.2981 | ValAcc=66.5% | AvgCost=1.255 | FC2-Rate=0.0079 (max=0.005) | lambda=14.0
+[Epoch 383/1500 | Cost-Step 13] Loss=1.3037 | Acc=66.4% | ValLoss=1.2980 | ValAcc=66.5% | AvgCost=1.255 | FC2-Rate=0.0079 (max=0.005) | lambda=14.0
+  -> Stagnation at cost level (no FC2-rate improvement for 20 epochs, best FC2=0.0079). Increasing lambda 14.0 -> 15.0
+  Val CM:
+[[ 51   6   0]
+ [ 14 181   2]
+ [ 31  77  26]]
+[Epoch 384/1500 | Cost-Step 14] Loss=1.3066 | Acc=65.1% | ValLoss=1.3233 | ValAcc=66.5% | AvgCost=1.255 | FC2-Rate=0.0079 (max=0.005) | lambda=15.0
+[Epoch 385/1500 | Cost-Step 14] Loss=1.3478 | Acc=64.9% | ValLoss=1.3227 | ValAcc=66.5% | AvgCost=1.255 | FC2-Rate=0.0079 (max=0.005) | lambda=15.0
+[Epoch 386/1500 | Cost-Step 14] Loss=1.2712 | Acc=65.5% | ValLoss=1.3227 | ValAcc=66.5% | AvgCost=1.255 | FC2-Rate=0.0079 (max=0.005) | lambda=15.0
+[Epoch 387/1500 | Cost-Step 14] Loss=1.3466 | Acc=65.5% | ValLoss=1.3220 | ValAcc=66.5% | AvgCost=1.255 | FC2-Rate=0.0079 (max=0.005) | lambda=15.0
+[Epoch 388/1500 | Cost-Step 14] Loss=1.4163 | Acc=64.3% | ValLoss=1.3212 | ValAcc=66.2% | AvgCost=1.263 | FC2-Rate=0.0079 (max=0.005) | lambda=15.0
+[Epoch 389/1500 | Cost-Step 14] Loss=1.3822 | Acc=65.2% | ValLoss=1.3200 | ValAcc=66.0% | AvgCost=1.278 | FC2-Rate=0.0079 (max=0.005) | lambda=15.0
+[Epoch 390/1500 | Cost-Step 14] Loss=1.3539 | Acc=64.9% | ValLoss=1.3198 | ValAcc=66.0% | AvgCost=1.278 | FC2-Rate=0.0079 (max=0.005) | lambda=15.0
+[Epoch 391/1500 | Cost-Step 14] Loss=1.3095 | Acc=64.2% | ValLoss=1.3199 | ValAcc=66.2% | AvgCost=1.263 | FC2-Rate=0.0079 (max=0.005) | lambda=15.0
+[Epoch 392/1500 | Cost-Step 14] Loss=1.3110 | Acc=65.7% | ValLoss=1.3198 | ValAcc=66.0% | AvgCost=1.278 | FC2-Rate=0.0079 (max=0.005) | lambda=15.0
+[Epoch 393/1500 | Cost-Step 14] Loss=1.3137 | Acc=66.1% | ValLoss=1.3196 | ValAcc=66.2% | AvgCost=1.263 | FC2-Rate=0.0079 (max=0.005) | lambda=15.0
+[Epoch 394/1500 | Cost-Step 14] Loss=1.3219 | Acc=65.4% | ValLoss=1.3190 | ValAcc=66.0% | AvgCost=1.278 | FC2-Rate=0.0079 (max=0.005) | lambda=15.0
+[Epoch 395/1500 | Cost-Step 14] Loss=1.3508 | Acc=65.8% | ValLoss=1.3191 | ValAcc=66.0% | AvgCost=1.278 | FC2-Rate=0.0079 (max=0.005) | lambda=15.0
+[Epoch 396/1500 | Cost-Step 14] Loss=1.2906 | Acc=65.1% | ValLoss=1.3190 | ValAcc=66.2% | AvgCost=1.263 | FC2-Rate=0.0079 (max=0.005) | lambda=15.0
+[Epoch 397/1500 | Cost-Step 14] Loss=1.3020 | Acc=65.2% | ValLoss=1.3189 | ValAcc=66.2% | AvgCost=1.263 | FC2-Rate=0.0079 (max=0.005) | lambda=15.0
+[Epoch 398/1500 | Cost-Step 14] Loss=1.3638 | Acc=65.0% | ValLoss=1.3188 | ValAcc=66.2% | AvgCost=1.263 | FC2-Rate=0.0079 (max=0.005) | lambda=15.0
+[Epoch 399/1500 | Cost-Step 14] Loss=1.3365 | Acc=64.9% | ValLoss=1.3186 | ValAcc=66.2% | AvgCost=1.263 | FC2-Rate=0.0079 (max=0.005) | lambda=15.0
+[Epoch 400/1500 | Cost-Step 14] Loss=1.2985 | Acc=65.0% | ValLoss=1.3190 | ValAcc=66.2% | AvgCost=1.263 | FC2-Rate=0.0079 (max=0.005) | lambda=15.0
+[Epoch 401/1500 | Cost-Step 14] Loss=1.3327 | Acc=64.7% | ValLoss=1.3186 | ValAcc=66.2% | AvgCost=1.263 | FC2-Rate=0.0079 (max=0.005) | lambda=15.0
+[Epoch 402/1500 | Cost-Step 14] Loss=1.3622 | Acc=65.2% | ValLoss=1.3181 | ValAcc=66.2% | AvgCost=1.263 | FC2-Rate=0.0079 (max=0.005) | lambda=15.0
+[Epoch 403/1500 | Cost-Step 14] Loss=1.3657 | Acc=64.6% | ValLoss=1.3179 | ValAcc=66.0% | AvgCost=1.278 | FC2-Rate=0.0079 (max=0.005) | lambda=15.0
+[Epoch 404/1500 | Cost-Step 14] Loss=1.3503 | Acc=64.2% | ValLoss=1.3175 | ValAcc=66.0% | AvgCost=1.278 | FC2-Rate=0.0079 (max=0.005) | lambda=15.0
+  -> Stagnation at cost level (no FC2-rate improvement for 20 epochs, best FC2=0.0079). Increasing lambda 15.0 -> 16.0
+  Val CM:
+[[ 51   6   0]
+ [ 14 181   2]
+ [ 32  78  24]]
+[Epoch 405/1500 | Cost-Step 15] Loss=1.3293 | Acc=65.2% | ValLoss=1.3416 | ValAcc=66.0% | AvgCost=1.278 | FC2-Rate=0.0079 (max=0.005) | lambda=16.0
+[Epoch 406/1500 | Cost-Step 15] Loss=1.2958 | Acc=65.5% | ValLoss=1.3411 | ValAcc=66.0% | AvgCost=1.278 | FC2-Rate=0.0079 (max=0.005) | lambda=16.0
+[Epoch 407/1500 | Cost-Step 15] Loss=1.3214 | Acc=66.1% | ValLoss=1.3409 | ValAcc=66.0% | AvgCost=1.278 | FC2-Rate=0.0079 (max=0.005) | lambda=16.0
+[Epoch 408/1500 | Cost-Step 15] Loss=1.3470 | Acc=64.3% | ValLoss=1.3402 | ValAcc=66.0% | AvgCost=1.278 | FC2-Rate=0.0079 (max=0.005) | lambda=16.0
+[Epoch 409/1500 | Cost-Step 15] Loss=1.3719 | Acc=65.2% | ValLoss=1.3398 | ValAcc=65.5% | AvgCost=1.294 | FC2-Rate=0.0079 (max=0.005) | lambda=16.0
+[Epoch 410/1500 | Cost-Step 15] Loss=1.2977 | Acc=65.7% | ValLoss=1.3396 | ValAcc=65.5% | AvgCost=1.294 | FC2-Rate=0.0079 (max=0.005) | lambda=16.0
+[Epoch 411/1500 | Cost-Step 15] Loss=1.3547 | Acc=64.7% | ValLoss=1.3392 | ValAcc=65.5% | AvgCost=1.294 | FC2-Rate=0.0079 (max=0.005) | lambda=16.0
+[Epoch 412/1500 | Cost-Step 15] Loss=1.3610 | Acc=64.8% | ValLoss=1.3390 | ValAcc=65.5% | AvgCost=1.268 | FC2-Rate=0.0039 (max=0.005) | lambda=16.0
+  -> Constraint satisfied (FC2-Rate=0.0039 <= 0.005)
+  Val CM:
+[[ 51   6   0]
+ [ 15 181   1]
+ [ 32  80  22]]
+
+Restored best constrained model (FC2-Rate=0.0039, AvgCost=1.268)
+
+Final lambda = 16.00
+Final cost matrix:
+tensor([[ 0.,  0., 16.],
+        [ 0.,  0., 16.],
+        [ 0.,  0.,  0.]])
+
+--- Phase 2 Final Evaluation ---
+--------------------------------------------------
+Evaluation cost matrix (raw):
+ tensor([[ 0.,  3., 13.],
+        [ 2.,  0., 12.],
+        [ 6.,  3.,  0.]])
+Evaluation cost matrix (normalized):
+ tensor([[0.0000, 0.0769, 0.3333],
+        [0.0513, 0.0000, 0.3077],
+        [0.1538, 0.0769, 0.0000]])
+--------------------------------------------------
+---------------Train Metrics Summary---------------
+Train Loss: 1.157, Train Accuracy: 67.698
+Average cost: 1.190
+AEC: 1.378
+RWWCE: 3.427
+Train Confusion Matrix: 
+ [[159  12   0]
+ [ 37 551   1]
+ [ 95 231  78]]
+Train Classification Report: 
+               precision    recall  f1-score   support
+
+           0       0.55      0.93      0.69       171
+           1       0.69      0.94      0.80       589
+           2       0.99      0.19      0.32       404
+
+    accuracy                           0.68      1164
+   macro avg       0.74      0.69      0.60      1164
+weighted avg       0.77      0.68      0.62      1164
+
+
+
+---------------Validation Metrics Summary---------------
+Validation Loss: 1.339, Validation Accuracy: 65.464
+Average cost: 1.268
+AEC: 1.456
+RWWCE: 3.852
+Validation Confusion Matrix: 
+ [[ 51   6   0]
+ [ 15 181   1]
+ [ 32  80  22]]
+Validation Classification Report: 
+               precision    recall  f1-score   support
+
+           0       0.52      0.89      0.66        57
+           1       0.68      0.92      0.78       197
+           2       0.96      0.16      0.28       134
+
+    accuracy                           0.65       388
+   macro avg       0.72      0.66      0.57       388
+weighted avg       0.75      0.65      0.59       388
+
+
+
+---------------Test Metrics Summary---------------
+Test Loss: 1.622, Test Accuracy: 65.296
+Average cost: 1.303
+AEC: 1.565
+RWWCE: 4.148
+Test Confusion Matrix: 
+ [[ 46  11   0]
+ [ 12 182   3]
+ [ 29  80  26]]
+Test Classification Report: 
+               precision    recall  f1-score   support
+
+           0       0.53      0.81      0.64        57
+           1       0.67      0.92      0.77       197
+           2       0.90      0.19      0.32       135
+
+    accuracy                           0.65       389
+   macro avg       0.70      0.64      0.58       389
+weighted avg       0.73      0.65      0.60       389
+
+
+
+Test FC2-Rate: 0.0118 (constraint: <= 0.005)
